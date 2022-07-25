@@ -15,6 +15,40 @@
     position: fixed;
 }
 
+.kenburns-bottom {
+	-webkit-animation: kenburns-bottom 5s ease-out reverse both;
+	        animation: kenburns-bottom 5s ease-out reverse both;
+}
+
+@-webkit-keyframes kenburns-bottom {
+    0% {
+      -webkit-transform: scale(1) translateY(0);
+              transform: scale(1) translateY(0);
+      -webkit-transform-origin: 50% 84%;
+              transform-origin: 50% 84%;
+    }
+    100% {
+      -webkit-transform: scale(1.25) translateY(15px);
+              transform: scale(1.25) translateY(15px);
+      -webkit-transform-origin: bottom;
+              transform-origin: bottom;
+    }
+  }
+  @keyframes kenburns-bottom {
+    0% {
+      -webkit-transform: scale(1) translateY(0);
+              transform: scale(1) translateY(0);
+      -webkit-transform-origin: 50% 84%;
+              transform-origin: 50% 84%;
+    }
+    100% {
+      -webkit-transform: scale(1.25) translateY(15px);
+              transform: scale(1.25) translateY(15px);
+      -webkit-transform-origin: bottom;
+              transform-origin: bottom;
+    }
+  }
+
 .cabecera {
     display: grid;
     justify-items: center;
@@ -32,10 +66,88 @@
     text-transform: uppercase;
 }
 
+.tracking-in-expand {
+	-webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+@-webkit-keyframes tracking-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes tracking-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .text-focus-in {
+	-webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	        animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+
+@-webkit-keyframes text-focus-in {
+    0% {
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+  @keyframes text-focus-in {
+    0% {
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+  
+
 .logoKangre {
     display: grid;
     justify-items: start;
     margin: 5px;
+    animation-name: logo;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes logo {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 
 .eslogan {
@@ -89,6 +201,11 @@
     color: red;
     font-size: 45px;
     -webkit-text-stroke: 1px black;
+    transition: padding 2seg;
+}
+
+.nosotros__titulo:hover {
+    transform: scale(1.2);
 }
 
 .nosotros__galeria {
@@ -241,6 +358,23 @@
     display: grid;
     justify-items: start;
     margin: 5px;
+    animation-name: logo;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes logo {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 
 .copyright {
@@ -258,6 +392,12 @@
     color: red;
     font-size: 45px;
     -webkit-text-stroke: 1px black;
+    margin-bottom: 15px;
+    transition: padding 2seg;
+}
+
+.quienesSomos__titulo:hover {
+    transform: scale(1.2);
 }
 
 .quienesSomos__parrafo {
@@ -286,6 +426,12 @@
     color: red;
     font-size: 45px;
     -webkit-text-stroke: 1px black;
+    margin-bottom: 10px;
+    transition: padding 2seg;
+}
+
+.ubicacion__titulo:hover {
+    transform: scale(1.2);
 }
 
 .ubicacion__direccion {
@@ -321,6 +467,12 @@
     color: red;
     font-size: 45px;
     -webkit-text-stroke: 1px black;
+    margin-bottom: 5px;
+    transition: padding 2seg;
+}
+
+.contacto__titulo:hover {
+    transform: scale(1.2);
 }
 
 .contacto__numero {
@@ -387,6 +539,11 @@
     font-size: 45px;
     -webkit-text-stroke: 1px black;
     margin-bottom: 20px;
+    transition: padding 2seg;
+}
+
+.menu__titulo:hover {
+    transform: scale(1.2);
 }
 
 .menu__comidas {
@@ -394,6 +551,8 @@
     color: red;
     font-size: 35px;
     -webkit-text-stroke: 1px black;
+    
+
 }
 
 .menu__ingredientes {
@@ -408,6 +567,11 @@
     border-radius: 10px;
     box-shadow: 4px 4px 10px black;
     margin-bottom: 15px;
+    transition: padding 2s;
+}
+
+.menu__fotos:hover {
+    padding: 10px;
 }
 
 .menu__imgFondoDePantalla {
@@ -429,7 +593,12 @@
     color: red;
     font-size: 45px;
     -webkit-text-stroke: 1px black;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
+    transition: padding 2seg;
+}
+
+.pedidos__titulo:hover {
+    transform: scale(1.2);
 }
 
 .pedidos__pedidosYa {
