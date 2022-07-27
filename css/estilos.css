@@ -325,6 +325,8 @@
     color: red;
     font-size: 45px;
     -webkit-text-stroke: 1px black;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .iconoWsp {
@@ -652,6 +654,7 @@
 
 .navegaciones__menu {
     display: block;
+    list-style: initial;
 }
 
 .tituloTeEsperamos {
