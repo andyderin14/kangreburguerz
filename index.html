@@ -6,7 +6,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Kangre Burguerz</title>
 
-
+        <!-- Vinculación Íconos Font Awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
         <!-- Vinculación de Animmaciones Animate -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
         <!-- Vinculación de Animmaciones AOS -->
@@ -73,18 +74,28 @@
                 </section>
 
                 <section class="horarios">
-                    <h2 data-aos="fade-right" class="horarios__titulo">Horarios</h2>
-                        <div class="animate__animated animate__headShake animate__infinite horarios__dias"> 
-                            <li>Lunes 12:00 - 00:00</li>
-                            <li>Martes 12:00 - 00:00</li>
-                            <li>Miércoles 12:00 - 00:00</li>
-                            <li>Jueves 12:00 - 00:00</li>
-                            <li>Viérnes 12:00 - 04:00</li>
-                            <li>Sábado 12:00 - 04:00</li>
-                            <li>Domingo 12:00 - 00:00</li>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col 12 -md-6">
+                                <h2 data-aos="fade-right" class="horarios__titulo">Horarios</h2>
+                            </div>
+                            <div class="col 12 -md-6">
+                                <i data-aos="fade-left" class="fa-solid fa-calendar-days"></i>
+                            </div>
                         </div>
+                    </div>
+                    
+                    <div class="animate__animated animate__headShake animate__infinite horarios__dias"> 
+                        <li>Lunes 12:00 - 00:00</li>
+                        <li>Martes 12:00 - 00:00</li>
+                        <li>Miércoles 12:00 - 00:00</li>
+                        <li>Jueves 12:00 - 00:00</li>
+                        <li>Viérnes 12:00 - 04:00</li>
+                        <li>Sábado 12:00 - 04:00</li>
+                        <li>Domingo 12:00 - 00:00</li>
+                    </div>
                 </section>
-                        
+                
             </main>
 
             <footer> <!-- Pie de página -->
@@ -95,15 +106,15 @@
                         <div class="container">
                             <div class="row">
                                 <div class="col 12 -md-6">
-                                    <h2 data-aos="fade-left" class="redes__titulo">Redes</h2>
+                                    <h2 data-aos="fade-right" class="redes__titulo">Redes</h2>
                                 </div>
                                 <div class="col 12 -md-6">
                                     <a href="https://wa.me/+5401168091842" target="_blank">
-                                        <img class="iconoWsp" src="./imagenes/wsp.jpg" alt="whatsapp" width="65" height="65">
+                                        <img data-aos="fade-left" class="iconoWsp" src="./imagenes/wsp.jpg" alt="whatsapp" width="65" height="65">
                                     </a>
                             
                                     <a href="https://www.instagram.com/kangreburguerz/" target="_blank">
-                                        <img class="iconoIg" src="./imagenes/Instagram_logo_2022.svg.png" alt="instagram" width="65" height="65">
+                                        <img data-aos="fade-left" class="iconoIg" src="./imagenes/Instagram_logo_2022.svg.png" alt="instagram" width="65" height="65">
                                     </a>
                                 </div>
                             </div>

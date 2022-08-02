@@ -49,41 +49,116 @@
 
             <main> <!-- Contiene los elementos de la página -->
 
-                <div class="menu" >
+                <div class="menu">
 
-                    <section>
+                    
                         <h1 class="menu__titulo">Kangre Menú</h1>
+                    
+                    <section class="menu__carrusel">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col 12">
+                                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+                                    <div class="carousel-indicators">
+                                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                                    </div>
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                                <img src="../imagenes/kangrecarne1.jpg" class="d-block w-100" alt="Hamburguesa de carne" width="100" height="100">
+                                            <div class="carousel-caption d-none d-md-block">
+                                                <h5>Hamburguesa de carne</h5>
+                                                <p>%100 carne vacuna. Ingredientes: 2 medallones de 150gr, lechuga, tomate, cheddar, bacon.</p>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                                <img src="../imagenes/kangrepollo4.jpg" class="d-block w-100" alt="Hamburguersa de pollo" width="100" height="100">
+                                            <div class="carousel-caption d-none d-md-block">
+                                                <h5>Hamburguesa de pollo</h5>
+                                                <p>Pechuga y codimentos. Ingredientes: 2 medallones de 150gr, lechuga, tomate y huevo.</p>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                                <img src="../imagenes/kangrebondiola2.jpg" class="d-block w-100" alt="Hamburguesa de bondiola" width="100" height="100">
+                                            <div class="carousel-caption d-none d-md-block">
+                                                <h5>Hamburguesa de bondiola</h5>
+                                                <p>Carne de cerdo. Ingredientes: 2 medallones de 150gr, lechuga, tomate, cheddar, huevo.</p>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                                <img src="../imagenes/kangrevegan3.jpg" class="d-block w-100" alt="Hamburguesa vegana" width="100" height="100">
+                                            <div class="carousel-caption d-none d-md-block">
+                                                <h5>Hamburguesa vegana</h5>
+                                                <p>Mix de legumbres (harina de arbejas, garbanzos, lentejas). 2 medallones de 150gr, lechuga, tomate.</p>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                                <img src="../imagenes/kangrepapas6.jpg" class="d-block w-100" alt="Papas kangre" width="100" height="100">
+                                            <div class="carousel-caption d-none d-md-block">
+                                                <h5>Papas</h5>
+                                                <p>Cheddar, bacon y cebolla de verdeo.</p>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                                <img src="../imagenes/kangrepromo5.jpg" class="d-block w-100" alt="Promos kangre" width="100" height="100">
+                                            <div class="carousel-caption d-none d-md-block">
+                                                <h5>Promos</h5>
+                                                <p>Combos: Papas + hamburguesa + bedida.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
                     </section>
-                    <section>
+                    </div>
+
+                    
+
+                    <div class="menu__vistaMobile">
+                        <section>
                         <h2 class="menu__comidas">Carne</h2>
                         <p class="menu__ingredientes">%100 carne vacuna. Ingredientes: 2 medallones de 150gr, lechuga, tomate, cheddar, bacon.</p>
-                        <img class="menu__fotos" src="../imagenes/kangrecarne1.jpg" alt="hamburguesa de carne" width="200" height="200">
-                    </section>
-                    <section>
+                        <!-- <img class="menu__fotos" src="../imagenes/kangrecarne1.jpg" alt="hamburguesa de carne" width="200" height="200"> -->
+                        </section>
+                        <section>
                         <h2 class="menu__comidas">Pollo</h2>
                         <p class="menu__ingredientes">Pechuga y codimentos. Ingredientes: 2 medallones de 150gr, lechuga, tomate y huevo.</p>
-                        <img class="menu__fotos" src="../imagenes/kangrepollo4.jpg" alt="hamburguesa de pollo" width="200" height="200">
-                    </section>
-                    <section>
+                        <!-- <img class="menu__fotos" src="../imagenes/kangrepollo4.jpg" alt="hamburguesa de pollo" width="200" height="200"> -->
+                        </section>
+                        <section>
                         <h2 class="menu__comidas">Bondiola</h2>
                         <p class="menu__ingredientes">Carne de cerdo. Ingredientes: 2 medallones de 150gr, lechuga, tomate, cheddar, huevo.</p>
-                        <img class="menu__fotos" src="../imagenes/kangrebondiola2.jpg" alt="hamburguesa de bondiola" width="200" height="200">
-                    </section>
-                    <section>
+                        <!-- <img class="menu__fotos" src="../imagenes/kangrebondiola2.jpg" alt="hamburguesa de bondiola" width="200" height="200"> -->
+                        </section>
+                        <section>
                         <h2 class="menu__comidas">Vegana</h2>
                         <p class="menu__ingredientes">Mix de legumbres (harina de arbejas, garbanzos, lentejas). 2 medallones de 150gr, lechuga, tomate.</p>
-                        <img class="menu__fotos" src="../imagenes/kangrevegan3.jpg" alt="hamburguesa vegana" width="200" height="200">
-                    </section>
-                    <section>
+                        <!-- <img class="menu__fotos" src="../imagenes/kangrevegan3.jpg" alt="hamburguesa vegana" width="200" height="200"> -->
+                        </section>
+                        <section>
                         <h2 class="menu__comidas">Papas</h2>
                         <p class="menu__ingredientes">Cheddar, bacon y cebolla de verdeo.</p>
-                        <img class="menu__fotos" src="../imagenes/kangrepapas6.jpg" alt="papas kangre" width="200" height="200">
-                    </section>
-                    <section>
+                        <!-- <img class="menu__fotos" src="../imagenes/kangrepapas6.jpg" alt="papas kangre" width="200" height="200"> -->
+                        </section>
+                        <section>
                         <h2 class="menu__comidas">Promos</h2>
                         <p class="menu__ingredientes">Combos: Papas + hamburguesa + bedida.</p>
-                        <img class="menu__fotos" src="../imagenes/kangrepromo5.jpg" alt="promos" width="200" height="200">
-                    </section>
+                        <!-- <img class="menu__fotos" src="../imagenes/kangrepromo5.jpg" alt="promos" width="200" height="200"> -->
+                        </section>
+                    </div>
 
                 </div>
         
@@ -97,15 +172,15 @@
                         <div class="container">
                             <div class="row">
                                 <div class="col 12 -md-6">
-                                    <h2 data-aos="fade-left" class="redes__titulo">Redes</h2>
+                                    <h2 data-aos="fade-right" class="redes__titulo">Redes</h2>
                                 </div>
                                 <div class="col 12 -md-6">
                                     <a href="https://wa.me/+5401168091842" target="_blank">
-                                        <img class="iconoWsp" src="../imagenes/wsp.jpg" alt="whatsapp" width="65" height="65">
+                                        <img data-aos="fade-left" class="iconoWsp" src="../imagenes/wsp.jpg" alt="whatsapp" width="65" height="65">
                                     </a>
                             
                                     <a href="https://www.instagram.com/kangreburguerz/" target="_blank">
-                                        <img class="iconoIg" src="../imagenes/Instagram_logo_2022.svg.png" alt="instagram" width="65" height="65">
+                                        <img data-aos="fade-left" class="iconoIg" src="../imagenes/Instagram_logo_2022.svg.png" alt="instagram" width="65" height="65">
                                     </a>
                                 </div>
                             </div>
