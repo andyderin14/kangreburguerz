@@ -34,7 +34,7 @@
     &__fotoGps {
         border: solid 2px black;
         border-radius: 10px;
-        box-shadow: 4px 4px 10px black;
+        box-shadow: $box-shadowPrincipal;
         margin-bottom: 20px;
         object-fit: cover;
     }

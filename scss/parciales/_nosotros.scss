@@ -28,7 +28,7 @@
         column-gap: 5px;
         border: 3px solid black;
         border-radius: 10px;
-        box-shadow: 4px 4px 10px black;
+        box-shadow: $box-shadowPrincipal;
     }
     
     &__fotos {

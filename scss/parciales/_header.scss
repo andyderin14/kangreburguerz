@@ -106,7 +106,7 @@
   border: solid 2px black;
   margin: 5px;
   padding: 5px;
-  box-shadow: 4px 4px 10px black;
+  box-shadow: $box-shadowPrincipal;
   margin-bottom: 20px;
 
   &__menu {
