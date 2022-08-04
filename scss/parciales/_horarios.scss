@@ -1,0 +1,39 @@
+.horarios {
+    background-image: url(../imagenes/fongopantallakangree.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: fixed;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;    
+    margin-bottom: 20px;
+}
+
+.fa-solid {
+    display: flex;
+    justify-content:flex-start;
+    color: red;
+    -webkit-text-stroke: 1px black;
+    font-size: 30px;
+    padding-top: 15px;
+}
+
+.horarios__titulo {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow';
+    color: red;
+    font-size: 45px;
+    -webkit-text-stroke: 1px black;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 5px;
+}
+
+.horarios__dias {
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow';
+    color: black;
+    font-size: 18px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,121 @@
+.cabecera {
+    display: grid;
+    justify-items: center;
+    margin-bottom: 20px;
+    position: absolute;
+    top: 40px;
+    left: 30%;
+}
+
+.tituloPagina {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow';
+    font-size: 60px;
+    color: red;
+    -webkit-text-stroke: 1px black;
+    text-transform: uppercase;
+}
+
+.tracking-in-expand {
+	-webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+@-webkit-keyframes tracking-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+}
+  @keyframes tracking-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+}
+  
+.text-focus-in {
+	-webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	        animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+
+@-webkit-keyframes text-focus-in {
+    0% {
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+}
+@keyframes text-focus-in {
+    0% {
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+}
+
+.logoKangre {
+    display: grid;
+    justify-items: start;
+    margin: 5px;
+}
+
+.eslogan {
+    font-family: 'Lobster';
+    font-size: 40px;
+    color: yellow;
+    -webkit-text-stroke: 0.8px black;
+}
+
+.navegaciones {
+    background-image: url(../imagenes/fongopantallakangree.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: fixed;
+    font-size: 10px;
+    border-radius: 10px;
+    border: solid 2px black;
+    margin: 5px;
+    padding: 5px;
+    box-shadow: 4px 4px 10px black;
+    margin-bottom: 20px;
+    }
+
+.navegaciones__menu {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-around;
+    margin-bottom: 5px;
+}
+
+.navegaciones__paginas {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    text-decoration: none;
+}

@@ -1,0 +1,33 @@
+.video__fondo {
+    width: 100%;
+    min-height: 500px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video__videoKangre {
+    width: 80%;
+    height: 90%;
+    object-fit: cover;
+    position: absolute;
+    z-index: -1;
+    border-radius: 10px;
+    border: solid 2px black;
+    background-position: center;
+    box-shadow: 4px 4px 10px black;
+}
+
+.video__titulo {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow';
+    color: red;
+    font-size: 45px;
+    -webkit-text-stroke: 1px black;
+    margin: 5px;
+    padding: 5px;
+    box-shadow: 4px 4px 10px black;
+    border-radius: 10px;
+    display: grid;
+    align-items: center;
+}

@@ -233,7 +233,7 @@
     border-radius: 10px;
 }
 
-.fondoVideo {
+.video__fondo {
     width: 100%;
     min-height: 500px;
     position: relative;
@@ -242,7 +242,7 @@
     align-items: center;
 }
 
-.videoKangre {
+.video__videoKangre {
     width: 80%;
     height: 90%;
     object-fit: cover;
@@ -254,7 +254,7 @@
     box-shadow: 4px 4px 10px black;
 }
 
-.tituloTeEsperamos {
+.video__titulo {
     font-family:'Franklin Gothic Medium', 'Arial Narrow';
     color: red;
     font-size: 45px;
@@ -276,6 +276,10 @@
     margin: 5px;
     padding: 5px;    
     margin-bottom: 20px;
+}
+
+.container__horarios {
+    padding-left: 10px;
 }
 
 .fa-solid {
@@ -713,6 +717,7 @@ p:nth-child(odd){
     .card {
         width: 50%;
     }
+
 }
     
 

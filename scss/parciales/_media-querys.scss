@@ -1,0 +1,153 @@
+/* Táblet */
+@media screen and (max-width: 1360px){
+    /* .logoKangre {
+        justify-items: center;
+    } */
+
+    /* .cabecera {
+        text-align: center;
+    } */
+
+    .comentario__comentario {
+        display: flex;
+        position: relative;
+        margin: 5px;
+    }
+
+    .comentarioKangre__titulo {
+        display: flex;
+        position: relative;
+        margin: 5px;
+    }
+
+    .comentarioKangre__boton {
+        align-items:center;
+        width: 30%;
+        margin-top: 10px;
+    }
+}
+
+/* Táblet */
+@media screen and (max-width: 905px){
+    .comentario__comentario {
+        display: flex;
+        position: relative;
+    }
+}
+    
+
+
+/* Móvil */
+@media screen and (max-width: 599px){
+
+.nosotros__galeria {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 200px);
+    grid-template-areas:
+    "img1"
+    "img1"
+    "img2"
+    "img3"
+    ;
+
+    height: auto;
+    margin: 10px;
+}
+
+.logoKangre {
+    justify-items: center;
+    margin-bottom: 250px;
+}
+
+.cabecera {
+    text-align: center;
+    top: 185px;
+    left: 2%;
+}
+
+.tituloPagina {
+    font-size: 50px;
+}
+
+.logoKangre2 {
+    justify-items: center;
+}
+
+.eslogan {
+    text-align: center;
+    left: 2%;
+}
+
+.navegaciones {
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.navegaciones__menu {
+    display: block;
+    list-style: initial;
+}
+
+.tituloTeEsperamos {
+    align-items:center;
+    font-size: 28px;
+}
+
+.ubicacion__fotoGps {
+    height: 250px;
+    width: 250px;
+}
+
+.comentarioKangre__titulo {
+    font-size: 35px;
+}
+
+.comentario__comentario {
+    display: flex;
+    position: relative;
+}
+
+.carousel {
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-item img {
+   height: 250px;
+}
+
+.menu__vistaMobile {
+    display: block;
+    text-align: center;
+}
+
+.comentarioKangre__formulario {
+    object-fit:none;
+    flex-direction: column;
+    justify-content:space-between;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-shadow: 4px 4px 10px black;
+}
+
+.contacto__titulo {
+    font-size: 35px;
+}
+
+.comentarioKangre__boton {
+    align-items:center;
+    width: 30%;
+    margin-top: 10px;
+}
+
+.iconoWsp {
+    margin-bottom: 5px;
+}
+
+.copyright {
+    font-size: 15px;
+}
+
+}
