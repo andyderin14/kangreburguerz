@@ -3,7 +3,8 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
 
 .imgFondoDePantalla {
   background-repeat: no-repeat;
@@ -12,35 +13,43 @@
   top: 0;
   left: 0;
   z-index: -1;
-  position: fixed; }
+  position: fixed;
+}
 
 .kenburns-bottom {
   -webkit-animation: kenburns-bottom 5s ease-out reverse both;
-  animation: kenburns-bottom 5s ease-out reverse both; }
+  animation: kenburns-bottom 5s ease-out reverse both;
+}
 
 @-webkit-keyframes kenburns-bottom {
   0% {
     -webkit-transform: scale(1) translateY(0);
     transform: scale(1) translateY(0);
     -webkit-transform-origin: 50% 84%;
-    transform-origin: 50% 84%; }
+    transform-origin: 50% 84%;
+  }
   100% {
     -webkit-transform: scale(1.25) translateY(15px);
     transform: scale(1.25) translateY(15px);
     -webkit-transform-origin: bottom;
-    transform-origin: bottom; } }
+    transform-origin: bottom;
+  }
+}
 
 @keyframes kenburns-bottom {
   0% {
     -webkit-transform: scale(1) translateY(0);
     transform: scale(1) translateY(0);
     -webkit-transform-origin: 50% 84%;
-    transform-origin: 50% 84%; }
+    transform-origin: 50% 84%;
+  }
   100% {
     -webkit-transform: scale(1.25) translateY(15px);
     transform: scale(1.25) translateY(15px);
     -webkit-transform-origin: bottom;
-    transform-origin: bottom; } }
+    transform-origin: bottom;
+  }
+}
 
 .cabecera {
   display: grid;
@@ -48,71 +57,91 @@
   margin-bottom: 20px;
   position: absolute;
   top: 40px;
-  left: 30%; }
+  left: 30%;
+}
 
 .tituloPagina {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow';
   font-size: 60px;
   color: red;
   -webkit-text-stroke: 1px black;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+}
 
 .tracking-in-expand {
   -webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.61, 0.355, 1) both;
-  animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.61, 0.355, 1) both; }
+  animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+}
 
 @-webkit-keyframes tracking-in-expand {
   0% {
     letter-spacing: -0.5em;
-    opacity: 0; }
+    opacity: 0;
+  }
   40% {
-    opacity: 0.6; }
+    opacity: 0.6;
+  }
   100% {
-    opacity: 1; } }
+    opacity: 1;
+  }
+}
 
 @keyframes tracking-in-expand {
   0% {
     letter-spacing: -0.5em;
-    opacity: 0; }
+    opacity: 0;
+  }
   40% {
-    opacity: 0.6; }
+    opacity: 0.6;
+  }
   100% {
-    opacity: 1; } }
+    opacity: 1;
+  }
+}
 
 .text-focus-in {
   -webkit-animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
-  animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both; }
+  animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+}
 
 @-webkit-keyframes text-focus-in {
   0% {
     -webkit-filter: blur(12px);
     filter: blur(12px);
-    opacity: 0; }
+    opacity: 0;
+  }
   100% {
     -webkit-filter: blur(0px);
     filter: blur(0px);
-    opacity: 1; } }
+    opacity: 1;
+  }
+}
 
 @keyframes text-focus-in {
   0% {
     -webkit-filter: blur(12px);
     filter: blur(12px);
-    opacity: 0; }
+    opacity: 0;
+  }
   100% {
     -webkit-filter: blur(0px);
     filter: blur(0px);
-    opacity: 1; } }
+    opacity: 1;
+  }
+}
 
 .logoKangre {
   display: grid;
   justify-items: start;
-  margin: 5px; }
+  margin: 5px;
+}
 
 .eslogan {
   font-family: 'Lobster';
   font-size: 40px;
   color: yellow;
-  -webkit-text-stroke: 0.8px black; }
+  -webkit-text-stroke: 0.8px black;
+}
 
 .navegaciones {
   background-image: url(../imagenes/fongopantallakangree.jpg);
@@ -125,14 +154,16 @@
   margin: 5px;
   padding: 5px;
   box-shadow: 4px 4px 10px black;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+}
 
 .navegaciones__menu {
   display: flex;
   flex-direction: row;
   list-style: none;
   justify-content: space-around;
-  margin-bottom: 5px; }
+  margin-bottom: 5px;
+}
 
 .navegaciones__paginas {
   font-family: Arial, Helvetica, sans-serif;
@@ -141,12 +172,14 @@
   font-size: 25px;
   border-radius: 5px;
   margin-bottom: 5px;
-  text-decoration: none; }
+  text-decoration: none;
+}
 
 .nosotros {
   width: 100%;
   margin: 0 auto;
-  max-width: 1000px; }
+  max-width: 1000px;
+}
 
 .nosotros__titulo {
   text-align: center;
@@ -154,10 +187,12 @@
   color: red;
   font-size: 45px;
   -webkit-text-stroke: 1px black;
-  transition: padding 2seg; }
+  transition: padding 2seg;
+}
 
 .nosotros__titulo:hover {
-  transform: scale(1.2); }
+  transform: scale(1.2);
+}
 
 .nosotros__galeria {
   display: grid;
@@ -169,36 +204,43 @@
   column-gap: 5px;
   border: 3px solid black;
   border-radius: 10px;
-  box-shadow: 4px 4px 10px black; }
+  box-shadow: 4px 4px 10px black;
+}
 
 .nosotros__fotos {
   text-align: center;
   border: 2px solid black;
-  border-radius: 10px; }
+  border-radius: 10px;
+}
 
 .nosotros__fotos--1 {
-  grid-area: img1; }
+  grid-area: img1;
+}
 
 .nosotros__fotos--2 {
   grid-area: img2;
-  margin-bottom: 5px; }
+  margin-bottom: 5px;
+}
 
 .nosotros__fotos--3 {
-  grid-area: img3; }
+  grid-area: img3;
+}
 
 .nosotros__imagenes {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  border-radius: 10px; }
+  border-radius: 10px;
+}
 
-.video__fondo {
+.video {
   width: 100%;
   min-height: 500px;
   position: relative;
   display: flex;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+}
 
 .video__videoKangre {
   width: 80%;
@@ -209,7 +251,8 @@
   border-radius: 10px;
   border: solid 2px black;
   background-position: center;
-  box-shadow: 4px 4px 10px black; }
+  box-shadow: 4px 4px 10px black;
+}
 
 .video__titulo {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow';
@@ -221,7 +264,8 @@
   box-shadow: 4px 4px 10px black;
   border-radius: 10px;
   display: grid;
-  align-items: center; }
+  align-items: center;
+}
 
 .horarios {
   background-image: url(../imagenes/fongopantallakangree.jpg);
@@ -231,15 +275,8 @@
   border-radius: 10px;
   margin: 5px;
   padding: 5px;
-  margin-bottom: 20px; }
-
-.fa-solid {
-  display: flex;
-  justify-content: flex-start;
-  color: red;
-  -webkit-text-stroke: 1px black;
-  font-size: 30px;
-  padding-top: 15px; }
+  margin-bottom: 20px;
+}
 
 .horarios__titulo {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow';
@@ -248,7 +285,8 @@
   -webkit-text-stroke: 1px black;
   display: flex;
   justify-content: flex-end;
-  margin-bottom: 5px; }
+  margin-bottom: 5px;
+}
 
 .horarios__dias {
   text-align: center;
@@ -257,7 +295,17 @@
   font-size: 18px;
   list-style: none;
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+}
+
+.fa-solid {
+  display: flex;
+  justify-content: flex-start;
+  color: red;
+  -webkit-text-stroke: 1px black;
+  font-size: 30px;
+  padding-top: 15px;
+}
 
 .redes {
   background-image: url(../imagenes/fongopantallakangree.jpg);
@@ -270,7 +318,8 @@
   margin-bottom: 20px;
   display: flex;
   justify-content: center;
-  column-gap: 10px; }
+  column-gap: 10px;
+}
 
 .redes__titulo {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow';
@@ -278,28 +327,34 @@
   font-size: 45px;
   -webkit-text-stroke: 1px black;
   display: flex;
-  justify-content: flex-end; }
+  justify-content: flex-end;
+}
 
 .iconoWsp {
   border-radius: 20px;
-  border: solid 2px black; }
+  border: solid 2px black;
+}
 
 .iconoIg {
   border-radius: 20px;
-  border: solid 2px black; }
+  border: solid 2px black;
+}
 
 .logoKangre2 {
   display: grid;
   justify-items: start;
-  margin: 5px; }
+  margin: 5px;
+}
 
 .copyright {
   text-align: center;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow';
-  font-size: 25px; }
+  font-size: 25px;
+}
 
 .quienesSomos {
-  text-align: center; }
+  text-align: center;
+}
 
 .quienesSomos__titulo {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow';
@@ -307,41 +362,19 @@
   font-size: 45px;
   -webkit-text-stroke: 1px black;
   margin-bottom: 15px;
-  transition: padding 2seg; }
+  transition: padding 2seg;
+}
 
 .quienesSomos__titulo:hover {
-  transform: scale(1.2); }
+  transform: scale(1.2);
+}
 
 .quienesSomos__parrafo {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow';
   font-size: 22px;
   color: black;
-  margin-bottom: 15px; }
-
-.card {
-  margin: 0 auto;
-  width: 25%;
-  border: solid 2px black;
-  border-radius: 5px;
-  box-shadow: 4px 4px 10px black;
-  margin-bottom: 20px; }
-
-.card-body {
-  text-align: center; }
-
-.card-img-top {
-  border-bottom: 2px solid black;
-  height: 300px; }
-
-.card-text {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow'; }
-
-p:nth-child(odd) {
-  color: black; }
-
-span:nth-child(odd) {
-  color: red;
-  -webkit-text-stroke: 0.5px black; }
+  margin-bottom: 15px;
+}
 
 .quienesSomos__imgFondoDePantalla {
   background-repeat: no-repeat;
@@ -350,10 +383,43 @@ span:nth-child(odd) {
   top: 0;
   left: 0;
   z-index: -1;
-  position: fixed; }
+  position: fixed;
+}
+
+.card {
+  margin: 0 auto;
+  width: 25%;
+  border: solid 2px black;
+  border-radius: 5px;
+  box-shadow: 4px 4px 10px black;
+  margin-bottom: 20px;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.card-img-top {
+  border-bottom: 2px solid black;
+  height: 300px;
+}
+
+.card-text {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+}
+
+p:nth-child(odd) {
+  color: black;
+}
+
+span:nth-child(odd) {
+  color: red;
+  -webkit-text-stroke: 0.5px black;
+}
 
 .ubicacion {
-  text-align: center; }
+  text-align: center;
+}
 
 .ubicacion__titulo {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow';
@@ -361,16 +427,19 @@ span:nth-child(odd) {
   font-size: 45px;
   -webkit-text-stroke: 1px black;
   margin-bottom: 10px;
-  transition: padding 2seg; }
+  transition: padding 2seg;
+}
 
 .ubicacion__titulo:hover {
-  transform: scale(1.2); }
+  transform: scale(1.2);
+}
 
 .ubicacion__direccion {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow';
   font-size: 23px;
   color: black;
-  margin-bottom: 10px; }
+  margin-bottom: 10px;
+}
 
 .ubicacion__imgFondoDePantalla {
   background-repeat: no-repeat;
@@ -379,17 +448,20 @@ span:nth-child(odd) {
   top: 0;
   left: 0;
   z-index: -1;
-  position: fixed; }
+  position: fixed;
+}
 
 .ubicacion__fotoGps {
   border: solid 2px black;
   border-radius: 10px;
   box-shadow: 4px 4px 10px black;
   margin-bottom: 20px;
-  object-fit: cover; }
+  object-fit: cover;
+}
 
 .contacto {
-  text-align: center; }
+  text-align: center;
+}
 
 .contacto__titulo {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow';
@@ -397,23 +469,27 @@ span:nth-child(odd) {
   font-size: 45px;
   -webkit-text-stroke: 1px black;
   margin-bottom: 5px;
-  transition: padding 2seg; }
+  transition: padding 2seg;
+}
 
 .contacto__titulo:hover {
-  transform: scale(1.2); }
+  transform: scale(1.2);
+}
 
 .contacto__numero {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow';
   font-size: 23px;
   color: black;
-  margin-bottom: 25px; }
+  margin-bottom: 25px;
+}
 
 .comentarioKangre {
   text-align: center;
   margin: 5px;
   display: flex;
   justify-content: center;
-  object-fit: cover; }
+  object-fit: cover;
+}
 
 .comentarioKangre__formulario {
   background-image: url(../imagenes/fongopantallakangree.jpg);
@@ -425,13 +501,15 @@ span:nth-child(odd) {
   margin-bottom: 20px;
   border-radius: 10px;
   border: solid 2px black;
-  box-shadow: 4px 4px 10px black; }
+  box-shadow: 4px 4px 10px black;
+}
 
 .comentarioKangre__titulo {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow';
   color: red;
   font-size: 45px;
-  -webkit-text-stroke: 1px black; }
+  -webkit-text-stroke: 1px black;
+}
 
 .comentarioKangre__boton {
   font-size: 20px;
@@ -439,14 +517,17 @@ span:nth-child(odd) {
   border-radius: 5px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow';
   width: 20%;
-  margin-bottom: 10px; }
+  margin-bottom: 10px;
+}
 
 .btn-light {
-  border-color: black; }
+  border-color: black;
+}
 
 .btn {
   border: solid 2px black;
-  box-shadow: 2px 2px 4px black; }
+  box-shadow: 2px 2px 4px black;
+}
 
 .contacto__imgFondoDePantalla {
   background-repeat: no-repeat;
@@ -455,35 +536,56 @@ span:nth-child(odd) {
   top: 0;
   left: 0;
   z-index: -1;
-  position: fixed; }
+  position: fixed;
+}
 
 .menu {
-  text-align: center; }
+  text-align: center;
+}
 
 .menu__titulo {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow';
   color: red;
   font-size: 45px;
   -webkit-text-stroke: 1px black;
-  transition: padding 2seg; }
+  transition: padding 2seg;
+}
 
-.menu__titulo:hover {
-  transform: scale(1.2); }
+.menu__titulo__titulo:hover {
+  transform: scale(1.2);
+}
 
 .menu__comidas {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow';
   color: red;
   font-size: 35px;
-  -webkit-text-stroke: 1px black; }
+  -webkit-text-stroke: 1px black;
+}
 
 .menu__ingredientes {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow';
   font-size: 23px;
   color: black;
-  margin-bottom: 5px; }
+  margin-bottom: 5px;
+}
 
 .menu__vistaMobile {
-  display: none; }
+  display: none;
+}
+
+.menu__carrusel {
+  padding: 15px;
+}
+
+.menu__imgFondoDePantalla {
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  position: fixed;
+}
 
 /* .menu__fotos {
     border: solid 2px black;
@@ -502,40 +604,33 @@ span:nth-child(odd) {
   height: 600px;
   border: solid 2px black;
   border-radius: 10px;
-  box-shadow: 4px 4px 10px black; }
+  box-shadow: 4px 4px 10px black;
+}
 
 .carousel h5 {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow';
   color: red;
   font-size: 35px;
-  -webkit-text-stroke: 1px black; }
+  -webkit-text-stroke: 1px black;
+}
 
 .carousel p {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow';
   font-size: 23px;
   -webkit-text-stroke: 1px black;
-  color: white; }
+  color: white;
+}
 
 .carousel-item img {
   width: 50%;
   height: 595px;
   border-radius: 10px;
-  object-fit: cover; }
-
-.menu__carrusel {
-  padding: 15px; }
-
-.menu__imgFondoDePantalla {
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  z-index: -1;
-  position: fixed; }
+  object-fit: cover;
+}
 
 .pedidos {
-  text-align: center; }
+  text-align: center;
+}
 
 .pedidos__titulo {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow';
@@ -543,21 +638,25 @@ span:nth-child(odd) {
   font-size: 45px;
   -webkit-text-stroke: 1px black;
   margin-bottom: 15px;
-  transition: padding 2seg; }
+  transition: padding 2seg;
+}
 
-.pedidos__titulo:hover {
-  transform: scale(1.2); }
+.pedidos__titulo__titulo:hover {
+  transform: scale(1.2);
+}
 
 .pedidos__pedidosYa {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow';
   font-size: 30px;
   color: black;
-  margin-bottom: 5px; }
+  margin-bottom: 5px;
+}
 
 .pedidos__icono {
   border-radius: 20px;
   border: solid 2px black;
-  margin-bottom: 10px; }
+  margin-bottom: 10px;
+}
 
 .pedidos__imgFondoDePantalla {
   background-repeat: no-repeat;
@@ -566,7 +665,8 @@ span:nth-child(odd) {
   top: 0;
   left: 0;
   z-index: -1;
-  position: fixed; }
+  position: fixed;
+}
 
 /* Táblet */
 @media screen and (max-width: 1360px) {
@@ -579,25 +679,33 @@ span:nth-child(odd) {
   .comentario__comentario {
     display: flex;
     position: relative;
-    margin: 5px; }
+    margin: 5px;
+  }
   .comentarioKangre__titulo {
     display: flex;
     position: relative;
-    margin: 5px; }
+    margin: 5px;
+  }
   .comentarioKangre__boton {
     align-items: center;
     width: 30%;
-    margin-top: 10px; }
+    margin-top: 10px;
+  }
   .card {
-    width: 40%; } }
+    width: 40%;
+  }
+}
 
 /* Táblet */
 @media screen and (max-width: 905px) {
   .comentario__comentario {
     display: flex;
-    position: relative; }
+    position: relative;
+  }
   .card {
-    width: 50%; } }
+    width: 50%;
+  }
+}
 
 /* Móvil */
 @media screen and (max-width: 599px) {
@@ -606,52 +714,69 @@ span:nth-child(odd) {
     grid-template-rows: repeat(4, 200px);
     grid-template-areas: "img1" "img1" "img2" "img3";
     height: auto;
-    margin: 10px; }
+    margin: 10px;
+  }
   .logoKangre {
     justify-items: center;
-    margin-bottom: 250px; }
+    margin-bottom: 250px;
+  }
   .cabecera {
     text-align: center;
     top: 185px;
-    left: 2%; }
+    left: 2%;
+  }
   .tituloPagina {
-    font-size: 50px; }
+    font-size: 50px;
+  }
   .logoKangre2 {
-    justify-items: center; }
+    justify-items: center;
+  }
   .eslogan {
     text-align: center;
-    left: 2%; }
+    left: 2%;
+  }
   .navegaciones {
     flex-direction: column;
     justify-content: center;
-    margin-top: 20px; }
+    margin-top: 20px;
+  }
   .navegaciones__menu {
     display: block;
-    list-style: initial; }
+    list-style: initial;
+  }
   .tituloTeEsperamos {
     align-items: center;
-    font-size: 28px; }
+    font-size: 28px;
+  }
   .ubicacion__fotoGps {
     height: 250px;
-    width: 250px; }
+    width: 250px;
+  }
   .comentarioKangre__titulo {
-    font-size: 35px; }
+    font-size: 35px;
+  }
   .comentario__comentario {
     display: flex;
-    position: relative; }
+    position: relative;
+  }
   .row-card {
-    margin-bottom: 10px; }
+    margin-bottom: 10px;
+  }
   .card {
     width: 80%;
-    height: 70%; }
+    height: 70%;
+  }
   .carousel {
     width: 100%;
-    height: 100%; }
+    height: 100%;
+  }
   .carousel-item img {
-    height: 250px; }
+    height: 250px;
+  }
   .menu__vistaMobile {
     display: block;
-    text-align: center; }
+    text-align: center;
+  }
   .comentarioKangre__formulario {
     object-fit: none;
     flex-direction: column;
@@ -659,14 +784,20 @@ span:nth-child(odd) {
     width: 100%;
     height: 100%;
     padding: 10px;
-    box-shadow: 4px 4px 10px black; }
+    box-shadow: 4px 4px 10px black;
+  }
   .contacto__titulo {
-    font-size: 35px; }
+    font-size: 35px;
+  }
   .comentarioKangre__boton {
     align-items: center;
     width: 30%;
-    margin-top: 10px; }
+    margin-top: 10px;
+  }
   .iconoWsp {
-    margin-bottom: 5px; }
+    margin-bottom: 5px;
+  }
   .copyright {
-    font-size: 15px; } }
+    font-size: 15px;
+  }
+}
