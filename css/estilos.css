@@ -1,4 +1,5 @@
 /*selector Universal */
+
 * {
     margin: 0;
     padding: 0;
@@ -311,13 +312,10 @@
     background-repeat: no-repeat;
     background-size: cover;
     background: fixed;
-   
     border-radius: 10px;
     margin: 5px;
     padding: 5px;
     margin-bottom: 20px;
-    
-
     display: flex;
     justify-content: center;
     column-gap: 10px;
@@ -376,7 +374,39 @@
     font-size: 22px;
     color: black;
     margin-bottom: 15px;
+    padding: 2px;
 }
+
+.card {
+    margin: 0 auto;
+    width: 25%;
+    border: solid 2px black;
+    border-radius: 5px;
+    box-shadow: 4px 4px 10px black;
+    margin-bottom: 20px;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card-img-top {
+    border-bottom: 2px solid black;
+    height: 300px;
+}
+
+.card-text {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow';
+}
+
+p:nth-child(odd){
+    color: black;
+  }
+  
+  span:nth-child(odd){
+    color: red;
+    -webkit-text-stroke: 0.5px black;
+  }
 
 .quienesSomos__imgFondoDePantalla {
     background-repeat: no-repeat;
@@ -667,6 +697,10 @@
         width: 30%;
         margin-top: 10px;
     }
+
+    .card {
+        width: 40%;
+    }
 }
 
 /* Táblet */
@@ -674,6 +708,10 @@
     .comentario__comentario {
         display: flex;
         position: relative;
+    }
+
+    .card {
+        width: 50%;
     }
 }
     
@@ -748,6 +786,15 @@
 .comentario__comentario {
     display: flex;
     position: relative;
+}
+
+.row-card {
+    margin-bottom: 10px;
+}
+
+.card {
+    width: 80%;
+    height: 70%;
 }
 
 .carousel {
