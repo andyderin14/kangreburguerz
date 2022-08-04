@@ -25,6 +25,10 @@
         width: 30%;
         margin-top: 10px;
     }
+
+    .card {
+        width: 40%;
+    }
 }
 
 /* Táblet */
@@ -33,9 +37,11 @@
         display: flex;
         position: relative;
     }
-}
-    
 
+    .card {
+        width: 50%;
+    }
+}
 
 /* Móvil */
 @media screen and (max-width: 599px){
@@ -106,6 +112,15 @@
 .comentario__comentario {
     display: flex;
     position: relative;
+}
+
+.row-card {
+    margin-bottom: 10px;
+}
+
+.card {
+    width: 80%;
+    height: 70%;
 }
 
 .carousel {

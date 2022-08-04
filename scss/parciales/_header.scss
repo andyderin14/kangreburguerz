@@ -10,7 +10,7 @@
 .tituloPagina {
     font-family:'Franklin Gothic Medium', 'Arial Narrow';
     font-size: 60px;
-    color: red;
+    color: $colorPrincipal;
     -webkit-text-stroke: 1px black;
     text-transform: uppercase;
 }

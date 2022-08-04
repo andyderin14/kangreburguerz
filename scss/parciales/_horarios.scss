@@ -12,7 +12,7 @@
 .fa-solid {
     display: flex;
     justify-content:flex-start;
-    color: red;
+    color: $colorPrincipal;
     -webkit-text-stroke: 1px black;
     font-size: 30px;
     padding-top: 15px;
@@ -20,7 +20,7 @@
 
 .horarios__titulo {
     font-family:'Franklin Gothic Medium', 'Arial Narrow';
-    color: red;
+    color: $colorPrincipal;
     font-size: 45px;
     -webkit-text-stroke: 1px black;
     display: flex;

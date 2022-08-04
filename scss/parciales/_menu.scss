@@ -4,7 +4,7 @@
 
 .menu__titulo {
     font-family:'Franklin Gothic Medium', 'Arial Narrow';
-    color: red;
+    color: $colorPrincipal;
     font-size: 45px;
     -webkit-text-stroke: 1px black;
     transition: padding 2seg;
@@ -16,7 +16,7 @@
 
 .menu__comidas {
     font-family:'Franklin Gothic Medium', 'Arial Narrow';
-    color: red;
+    color: $colorPrincipal;
     font-size: 35px;
     -webkit-text-stroke: 1px black;
 }
@@ -55,7 +55,7 @@
 
 .carousel h5 {
     font-family:'Franklin Gothic Medium', 'Arial Narrow';
-    color: red;
+    color: $colorPrincipal;
     font-size: 35px;
     -webkit-text-stroke: 1px black;
 }
