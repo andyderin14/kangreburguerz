@@ -20,7 +20,7 @@
 }
 
 .video__titulo {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow';
+    font-family: $font-familyPrincipal;
     color: $colorPrincipal;
     font-size: 45px;
     -webkit-text-stroke: 1px black;

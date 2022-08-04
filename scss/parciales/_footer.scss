@@ -12,7 +12,7 @@
     column-gap: 10px;
 
     &__titulo {
-        font-family:'Franklin Gothic Medium', 'Arial Narrow';
+        font-family: $font-familyPrincipal;
         color: $colorPrincipal;
         font-size: 45px;
         -webkit-text-stroke: 1px black;
@@ -41,6 +41,6 @@
 
 .copyright {
     text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+    font-family: $font-familyPrincipal;
     font-size: 25px;
 }

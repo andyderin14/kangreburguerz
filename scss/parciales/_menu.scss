@@ -2,7 +2,7 @@
     text-align: center;
 
     &__titulo {
-        font-family:'Franklin Gothic Medium', 'Arial Narrow';
+        font-family: $font-familyPrincipal;
         color: $colorPrincipal;
         font-size: 45px;
         -webkit-text-stroke: 1px black;
@@ -14,14 +14,14 @@
     }
     
     &__comidas {
-        font-family:'Franklin Gothic Medium', 'Arial Narrow';
+        font-family: $font-familyPrincipal;
         color: $colorPrincipal;
         font-size: 35px;
         -webkit-text-stroke: 1px black;
     }
     
     &__ingredientes {
-        font-family:'Franklin Gothic Medium', 'Arial Narrow';
+        font-family: $font-familyPrincipal;
         font-size: 23px;
         color: black;
         margin-bottom: 5px;
@@ -68,14 +68,14 @@
 }
 
 .carousel h5 {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow';
+    font-family: $font-familyPrincipal;
     color: $colorPrincipal;
     font-size: 35px;
     -webkit-text-stroke: 1px black;
 }
 
 .carousel p {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow';
+    font-family: $font-familyPrincipal;
     font-size: 23px;
     -webkit-text-stroke: 1px black;
     color: white;

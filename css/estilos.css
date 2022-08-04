@@ -61,7 +61,7 @@
 }
 
 .tituloPagina {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+  font-family: "Franklin Gothic Medium", "Arial Narrow";
   font-size: 60px;
   color: red;
   -webkit-text-stroke: 1px black;
@@ -183,7 +183,7 @@
 
 .nosotros__titulo {
   text-align: center;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+  font-family: "Franklin Gothic Medium", "Arial Narrow";
   color: red;
   font-size: 45px;
   -webkit-text-stroke: 1px black;
@@ -255,7 +255,7 @@
 }
 
 .video__titulo {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+  font-family: "Franklin Gothic Medium", "Arial Narrow";
   color: red;
   font-size: 45px;
   -webkit-text-stroke: 1px black;
@@ -279,7 +279,7 @@
 }
 
 .horarios__titulo {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+  font-family: "Franklin Gothic Medium", "Arial Narrow";
   color: red;
   font-size: 45px;
   -webkit-text-stroke: 1px black;
@@ -290,7 +290,7 @@
 
 .horarios__dias {
   text-align: center;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+  font-family: "Franklin Gothic Medium", "Arial Narrow";
   color: black;
   font-size: 18px;
   list-style: none;
@@ -322,7 +322,7 @@
 }
 
 .redes__titulo {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+  font-family: "Franklin Gothic Medium", "Arial Narrow";
   color: red;
   font-size: 45px;
   -webkit-text-stroke: 1px black;
@@ -348,7 +348,7 @@
 
 .copyright {
   text-align: center;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+  font-family: "Franklin Gothic Medium", "Arial Narrow";
   font-size: 25px;
 }
 
@@ -357,7 +357,7 @@
 }
 
 .quienesSomos__titulo {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+  font-family: "Franklin Gothic Medium", "Arial Narrow";
   color: red;
   font-size: 45px;
   -webkit-text-stroke: 1px black;
@@ -370,7 +370,7 @@
 }
 
 .quienesSomos__parrafo {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+  font-family: "Franklin Gothic Medium", "Arial Narrow";
   font-size: 22px;
   color: black;
   margin-bottom: 15px;
@@ -405,7 +405,7 @@
 }
 
 .card-text {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+  font-family: "Franklin Gothic Medium", "Arial Narrow";
 }
 
 p:nth-child(odd) {
@@ -422,7 +422,7 @@ span:nth-child(odd) {
 }
 
 .ubicacion__titulo {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+  font-family: "Franklin Gothic Medium", "Arial Narrow";
   color: red;
   font-size: 45px;
   -webkit-text-stroke: 1px black;
@@ -435,7 +435,7 @@ span:nth-child(odd) {
 }
 
 .ubicacion__direccion {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+  font-family: "Franklin Gothic Medium", "Arial Narrow";
   font-size: 23px;
   color: black;
   margin-bottom: 10px;
@@ -464,7 +464,7 @@ span:nth-child(odd) {
 }
 
 .contacto__titulo {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+  font-family: "Franklin Gothic Medium", "Arial Narrow";
   color: red;
   font-size: 45px;
   -webkit-text-stroke: 1px black;
@@ -477,7 +477,7 @@ span:nth-child(odd) {
 }
 
 .contacto__numero {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+  font-family: "Franklin Gothic Medium", "Arial Narrow";
   font-size: 23px;
   color: black;
   margin-bottom: 25px;
@@ -505,7 +505,7 @@ span:nth-child(odd) {
 }
 
 .comentarioKangre__titulo {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+  font-family: "Franklin Gothic Medium", "Arial Narrow";
   color: red;
   font-size: 45px;
   -webkit-text-stroke: 1px black;
@@ -515,7 +515,7 @@ span:nth-child(odd) {
   font-size: 20px;
   margin: 2px;
   border-radius: 5px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+  font-family: "Franklin Gothic Medium", "Arial Narrow";
   width: 20%;
   margin-bottom: 10px;
 }
@@ -544,7 +544,7 @@ span:nth-child(odd) {
 }
 
 .menu__titulo {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+  font-family: "Franklin Gothic Medium", "Arial Narrow";
   color: red;
   font-size: 45px;
   -webkit-text-stroke: 1px black;
@@ -556,14 +556,14 @@ span:nth-child(odd) {
 }
 
 .menu__comidas {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+  font-family: "Franklin Gothic Medium", "Arial Narrow";
   color: red;
   font-size: 35px;
   -webkit-text-stroke: 1px black;
 }
 
 .menu__ingredientes {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+  font-family: "Franklin Gothic Medium", "Arial Narrow";
   font-size: 23px;
   color: black;
   margin-bottom: 5px;
@@ -608,14 +608,14 @@ span:nth-child(odd) {
 }
 
 .carousel h5 {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+  font-family: "Franklin Gothic Medium", "Arial Narrow";
   color: red;
   font-size: 35px;
   -webkit-text-stroke: 1px black;
 }
 
 .carousel p {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+  font-family: "Franklin Gothic Medium", "Arial Narrow";
   font-size: 23px;
   -webkit-text-stroke: 1px black;
   color: white;
@@ -633,7 +633,7 @@ span:nth-child(odd) {
 }
 
 .pedidos__titulo {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+  font-family: "Franklin Gothic Medium", "Arial Narrow";
   color: red;
   font-size: 45px;
   -webkit-text-stroke: 1px black;
@@ -646,7 +646,7 @@ span:nth-child(odd) {
 }
 
 .pedidos__pedidosYa {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+  font-family: "Franklin Gothic Medium", "Arial Narrow";
   font-size: 30px;
   color: black;
   margin-bottom: 5px;
