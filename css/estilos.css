@@ -349,6 +349,7 @@
 .copyright {
   text-align: center;
   font-family: "Franklin Gothic Medium", "Arial Narrow";
+  color: black;
   font-size: 25px;
 }
 
@@ -555,6 +556,10 @@ span:nth-child(odd) {
   transform: scale(1.2);
 }
 
+.menu__vistaMobile {
+  display: none;
+}
+
 .menu__comidas {
   font-family: "Franklin Gothic Medium", "Arial Narrow";
   color: red;
@@ -567,10 +572,6 @@ span:nth-child(odd) {
   font-size: 23px;
   color: black;
   margin-bottom: 5px;
-}
-
-.menu__vistaMobile {
-  display: none;
 }
 
 .menu__carrusel {

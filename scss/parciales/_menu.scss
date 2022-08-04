@@ -12,6 +12,10 @@
             transform: scale(1.2);
         }
     }
+
+    &__vistaMobile {
+        display: none;
+    }
     
     &__comidas {
         font-family: $font-familyPrincipal;
@@ -23,12 +27,8 @@
     &__ingredientes {
         font-family: $font-familyPrincipal;
         font-size: 23px;
-        color: black;
+        color: $colorSecundario;
         margin-bottom: 5px;
-    }
-    
-    &__vistaMobile {
-        display: none;
     }
 
     &__carrusel {
