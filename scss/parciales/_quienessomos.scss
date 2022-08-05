@@ -35,7 +35,7 @@
 .card {
     margin: 0 auto;
     width: 25%;
-    border: solid 2px black;
+    border: $borderPrincipal;
     border-radius: 5px;
     box-shadow: $box-shadowPrincipal;
     margin-bottom: 20px;

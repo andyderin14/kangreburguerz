@@ -14,7 +14,7 @@
     position: absolute;
     z-index: -1;
     border-radius: $border-radiusPrincipal;
-    border: solid 2px black;
+    border: $borderPrincipal;
     background-position: center;
     box-shadow: $box-shadowPrincipal;
 }

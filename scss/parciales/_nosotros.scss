@@ -26,14 +26,14 @@
         "img1 img2"
         "img1 img3";
         column-gap: 5px;
-        border: 3px solid black;
+        border: $borderPrincipal;
         border-radius: $border-radiusPrincipal;
         box-shadow: $box-shadowPrincipal;
     }
     
     &__fotos {
         text-align: center;
-        border: 2px solid black;
+        border: $borderPrincipal;
         border-radius: 10px;
     }
     
