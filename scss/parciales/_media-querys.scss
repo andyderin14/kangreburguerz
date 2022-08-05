@@ -85,14 +85,15 @@
 }
 
 .navegaciones {
-    flex-direction: column;
-    justify-content: center;
     margin-top: 20px;
 }
 
 .navegaciones__menu {
     display: block;
-    list-style: initial;
+    padding-left: 0px;
+    a::before {
+        content: "🍔";
+    }
 }
 
 .tituloTeEsperamos {

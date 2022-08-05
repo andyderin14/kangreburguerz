@@ -125,5 +125,10 @@
     border-radius: 5px;
     margin-bottom: 5px;
     text-decoration: none;
+
+    &:hover {
+    color: $colorPrincipal;
+    -webkit-text-stroke: $-webkit-text-strokePrincipal;
+    }
   }
 }
