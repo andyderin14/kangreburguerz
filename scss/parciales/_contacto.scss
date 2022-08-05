@@ -5,7 +5,7 @@
         font-family: $font-familyPrincipal;
         color: $colorPrincipal;
         font-size: 45px;
-        -webkit-text-stroke: 1px black;
+        -webkit-text-stroke: $-webkit-text-strokePrincipal;
         margin-bottom: 5px;
         transition: padding 2seg;
 
@@ -37,7 +37,7 @@
         width: 30%;
         height: 30%;
         margin-bottom: 20px;
-        border-radius: 10px;
+        border-radius: $border-radiusPrincipal;
         border: solid 2px black;
         box-shadow: $box-shadowPrincipal;
         }
@@ -46,7 +46,7 @@
         font-family: $font-familyPrincipal;
         color: $colorPrincipal;
         font-size: 45px;
-        -webkit-text-stroke: 1px black;
+        -webkit-text-stroke: $-webkit-text-strokePrincipal;
     }
     
     &__boton {

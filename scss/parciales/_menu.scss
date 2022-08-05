@@ -5,7 +5,7 @@
         font-family: $font-familyPrincipal;
         color: $colorPrincipal;
         font-size: 45px;
-        -webkit-text-stroke: 1px black;
+        -webkit-text-stroke: $-webkit-text-strokePrincipal;
         transition: padding 2seg;
 
         &__titulo:hover {
@@ -21,7 +21,7 @@
         font-family: $font-familyPrincipal;
         color: $colorPrincipal;
         font-size: 35px;
-        -webkit-text-stroke: 1px black;
+        -webkit-text-stroke: $-webkit-text-strokePrincipal;
     }
     
     &__ingredientes {
@@ -63,7 +63,7 @@
     width: 70%;
     height: 600px;
     border: solid 2px black;
-    border-radius: 10px;
+    border-radius: $border-radiusPrincipal;
     box-shadow: $box-shadowPrincipal;
 }
 
@@ -71,19 +71,19 @@
     font-family: $font-familyPrincipal;
     color: $colorPrincipal;
     font-size: 35px;
-    -webkit-text-stroke: 1px black;
+    -webkit-text-stroke: $-webkit-text-strokePrincipal;
 }
 
 .carousel p {
     font-family: $font-familyPrincipal;
     font-size: 23px;
-    -webkit-text-stroke: 1px black;
+    -webkit-text-stroke: $-webkit-text-strokePrincipal;
     color: white;
 }
 
 .carousel-item img {
     width: 50%;
     height: 595px;
-    border-radius: 10px;
+    border-radius: $border-radiusPrincipal;
     object-fit: cover;
 }

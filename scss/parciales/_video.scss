@@ -13,7 +13,7 @@
     object-fit: cover;
     position: absolute;
     z-index: -1;
-    border-radius: 10px;
+    border-radius: $border-radiusPrincipal;
     border: solid 2px black;
     background-position: center;
     box-shadow: $box-shadowPrincipal;
@@ -23,11 +23,11 @@
     font-family: $font-familyPrincipal;
     color: $colorPrincipal;
     font-size: 45px;
-    -webkit-text-stroke: 1px black;
+    -webkit-text-stroke: $-webkit-text-strokePrincipal;
     margin: 5px;
     padding: 5px;
     box-shadow: $box-shadowPrincipal;
-    border-radius: 10px;
+    border-radius: $border-radiusPrincipal;
     display: grid;
     align-items: center;
 }

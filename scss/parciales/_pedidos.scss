@@ -5,7 +5,7 @@
         font-family: $font-familyPrincipal;
         color: $colorPrincipal;
         font-size: 45px;
-        -webkit-text-stroke: 1px black;
+        -webkit-text-stroke: $-webkit-text-strokePrincipal;
         margin-bottom: 15px;
         transition: padding 2seg;
 

@@ -5,7 +5,7 @@
         font-family: $font-familyPrincipal;
         color: $colorPrincipal;
         font-size: 45px;
-        -webkit-text-stroke: 1px black;
+        -webkit-text-stroke: $-webkit-text-strokePrincipal;
         margin-bottom: 10px;
         transition: padding 2seg;
 
@@ -33,7 +33,7 @@
     
     &__fotoGps {
         border: solid 2px black;
-        border-radius: 10px;
+        border-radius: $border-radiusPrincipal;
         box-shadow: $box-shadowPrincipal;
         margin-bottom: 20px;
         object-fit: cover;
