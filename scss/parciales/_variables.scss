@@ -5,3 +5,13 @@ $box-shadowPrincipal: 4px 4px 10px black;
 $-webkit-text-strokePrincipal: 1px black;
 $borderPrincipal: solid 2px black;
 $border-radiusPrincipal: 10px;
+
+$imgFondoDePantalla: (
+        repticion: no-repeat,
+        ancho: 100%,
+        alto: 100%,
+        top: 0,
+        left: 0,
+        z-index: -1,
+        posicion: fixed,
+);
