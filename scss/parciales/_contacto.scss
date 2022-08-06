@@ -7,11 +7,6 @@
         font-size: 45px;
         -webkit-text-stroke: $-webkit-text-strokePrincipal;
         margin-bottom: 5px;
-        transition: padding 2seg;
-
-        &:hover {
-            transform: scale(1.2);
-        }
     }
 
     &__numero {

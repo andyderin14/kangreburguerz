@@ -6,11 +6,6 @@
         color: $colorPrincipal;
         font-size: 45px;
         -webkit-text-stroke: $-webkit-text-strokePrincipal;
-        transition: padding 2seg;
-
-        &__titulo:hover {
-            transform: scale(1.2);
-        }
     }
 
     &__vistaMobile {
