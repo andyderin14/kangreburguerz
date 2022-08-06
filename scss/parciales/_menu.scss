@@ -2,10 +2,8 @@
     text-align: center;
 
     &__titulo {
-        font-family: $font-familyPrincipal;
-        color: $colorPrincipal;
         font-size: 45px;
-        -webkit-text-stroke: $-webkit-text-strokePrincipal;
+        @include textoBase ($font-familyPrincipal, $colorPrincipal, $-webkit-text-strokePrincipal)
     }
 
     &__vistaMobile {
@@ -13,16 +11,14 @@
     }
     
     &__comidas {
-        font-family: $font-familyPrincipal;
-        color: $colorPrincipal;
         font-size: 35px;
-        -webkit-text-stroke: $-webkit-text-strokePrincipal;
+        @include textoBase ($font-familyPrincipal, $colorPrincipal, $-webkit-text-strokePrincipal)
     }
     
     &__ingredientes {
         font-family: $font-familyPrincipal;
-        font-size: 23px;
         color: $colorSecundario;
+        font-size: 23px;
         margin-bottom: 5px;
     }
 
@@ -63,17 +59,15 @@
 }
 
 .carousel h5 {
-    font-family: $font-familyPrincipal;
-    color: $colorPrincipal;
     font-size: 35px;
-    -webkit-text-stroke: $-webkit-text-strokePrincipal;
+    @include textoBase ($font-familyPrincipal, $colorPrincipal, $-webkit-text-strokePrincipal)
 }
 
 .carousel p {
     font-family: $font-familyPrincipal;
-    font-size: 23px;
-    -webkit-text-stroke: $-webkit-text-strokePrincipal;
     color: white;
+    -webkit-text-stroke: $-webkit-text-strokePrincipal;
+    font-size: 23px;
 }
 
 .carousel-item img {

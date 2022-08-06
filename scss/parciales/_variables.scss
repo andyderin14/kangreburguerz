@@ -15,3 +15,9 @@ $imgFondoDePantalla: (
         z-index: -1,
         posicion: fixed,
 );
+
+@mixin textoBase ($font-familyPrincipal, $colorPrincipal, $-webkit-text-strokePrincipal){
+        font-family: $font-familyPrincipal;
+        color: $colorPrincipal;
+        -webkit-text-stroke: $-webkit-text-strokePrincipal;
+}
