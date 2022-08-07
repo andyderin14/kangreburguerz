@@ -32,15 +32,14 @@
     margin: 5px;
     display: flex;
     justify-content: center;
-    object-fit: cover;
 
     &__formulario {
         background-image: url(../imagenes/fongopantallakangree.jpg);
         background-attachment: fixed;
-        background-repeat: no-repeat;
         background-position: center;
-        width: 30%;
-        height: 30%;
+        background-repeat: no-repeat;
+        width: 40%;
+        height: 35%;
         margin-bottom: 20px;
         border-radius: $border-radiusPrincipal;
         border: $borderPrincipal;

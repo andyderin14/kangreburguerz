@@ -484,16 +484,15 @@ span:nth-child(odd) {
   margin: 5px;
   display: flex;
   justify-content: center;
-  object-fit: cover;
 }
 
 .comentarioKangre__formulario {
   background-image: url(../imagenes/fongopantallakangree.jpg);
   background-attachment: fixed;
-  background-repeat: no-repeat;
   background-position: center;
-  width: 30%;
-  height: 30%;
+  background-repeat: no-repeat;
+  width: 40%;
+  height: 35%;
   margin-bottom: 20px;
   border-radius: 10px;
   border: solid 2px black;
