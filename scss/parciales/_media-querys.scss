@@ -1,12 +1,5 @@
 /* Táblet */
 @media screen and (max-width: 1360px){
-    /* .logoKangre {
-        justify-items: center;
-    } */
-
-    /* .cabecera {
-        text-align: center;
-    } */
 
     .comentario__comentario {
         display: flex;
@@ -29,10 +22,40 @@
     .card {
         width: 40%;
     }
+
+    .comentarioKangre__formulario {
+        width: 30%;
+        height: 30%;
+    }
+}
+
+/* Táblet */
+@media screen and (max-width: 1000px) {
+    .comentarioKangre__formulario {
+    width: 40%;
+    height: 40%;
+}
 }
 
 /* Táblet */
 @media screen and (max-width: 905px){
+    .logoKangre {
+        justify-content: center;
+    }
+
+    .navegaciones {
+        display: block;
+        flex-direction:column;
+    }
+
+    .navegaciones__menu {
+        flex-direction: column;
+        text-align: center;
+        a::before {
+            content: "🍔";
+        }
+    }
+
     .comentario__comentario {
         display: flex;
         position: relative;
@@ -40,6 +63,18 @@
 
     .card {
         width: 50%;
+    }
+
+    .cabecera__textos {
+        margin: auto;
+    }
+}
+
+/* Táblet */
+@media screen and (max-width: 700px){
+    .comentarioKangre__formulario {
+        width: 60%;
+        height: 60%;
     }
 }
 
@@ -62,26 +97,10 @@
 
 .logoKangre {
     justify-items: center;
-    margin-bottom: 250px;
-}
-
-.cabecera {
-    text-align: center;
-    top: 185px;
-    left: 2%;
-}
-
-.tituloPagina {
-    font-size: 50px;
 }
 
 .logoKangre2 {
     justify-items: center;
-}
-
-.eslogan {
-    text-align: center;
-    left: 2%;
 }
 
 .navegaciones {
@@ -90,6 +109,7 @@
 
 .navegaciones__menu {
     display: block;
+    text-align: start;
     padding-left: 0px;
     a::before {
         content: "🍔";
@@ -99,6 +119,14 @@
 .tituloTeEsperamos {
     align-items:center;
     font-size: 28px;
+}
+
+.nosotros__fotos--1 {
+    margin-bottom: 5px;
+}
+
+.nosotros__fotos--2 {
+    margin-bottom: 5px;
 }
 
 .ubicacion__fotoGps {
@@ -143,13 +171,8 @@
 }
 
 .comentarioKangre__formulario {
-    object-fit:none;
-    flex-direction: column;
-    justify-content:space-between;
-    width: 100%;
-    height: 100%;
-    padding: 10px;
-    box-shadow: $box-shadowPrincipal;
+    width: 60%;
+    height: 60%;
 }
 
 .contacto__titulo {
@@ -158,7 +181,7 @@
 
 .comentarioKangre__boton {
     align-items:center;
-    width: 30%;
+    width: 32%;
     margin-top: 10px;
 }
 
@@ -169,5 +192,27 @@
 .copyright {
     font-size: 15px;
 }
+}
 
+/* Móvil */
+@media screen and (max-width: 500px){
+    .comentarioKangre__boton {
+        width: 90px;
+        text-align: center;
+    }
+}
+
+/* Móvil */
+@media screen and (max-width: 370px){
+    .comentarioKangre__titulo {
+        font-size: 30px;
+    }
+}
+
+/* Móvil */
+@media screen and (max-width: 345px){
+    .comentarioKangre__boton {
+        width: 85px;
+        text-align: center;
+    }
 }

@@ -1,10 +1,8 @@
-.cabecera {
+.cabecera__header {
   display: grid;
   justify-items: center;
-  margin-bottom: 20px;
-  position: absolute;
-  top: 40px;
-  left: 30%;
+  text-align: center;
+  margin-bottom: 15px;
 }
 
 .tituloPagina {
@@ -13,6 +11,7 @@
   color: $colorPrincipal;
   -webkit-text-stroke: $-webkit-text-strokePrincipal;
   text-transform: uppercase;
+  margin: 0;
 }
 
 .tracking-in-expand {
@@ -85,7 +84,7 @@
 
 .logoKangre {
   display: grid;
-  justify-items: start;
+  justify-content: center;
   margin: 5px;
 }
 
@@ -107,14 +106,15 @@
   margin: 5px;
   padding: 5px;
   box-shadow: $box-shadowPrincipal;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 
   &__menu {
     display: flex;
     flex-direction: row;
     list-style: none;
     justify-content: space-around;
-    margin-bottom: 5px;
+    padding-left: 0;
+    margin-bottom: 0;
   }
 
   &__paginas {

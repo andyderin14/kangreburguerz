@@ -51,13 +51,11 @@
   }
 }
 
-.cabecera {
+.cabecera__header {
   display: grid;
   justify-items: center;
-  margin-bottom: 20px;
-  position: absolute;
-  top: 40px;
-  left: 30%;
+  text-align: center;
+  margin-bottom: 15px;
 }
 
 .tituloPagina {
@@ -66,6 +64,7 @@
   color: red;
   -webkit-text-stroke: 1px black;
   text-transform: uppercase;
+  margin: 0;
 }
 
 .tracking-in-expand {
@@ -132,7 +131,7 @@
 
 .logoKangre {
   display: grid;
-  justify-items: start;
+  justify-content: center;
   margin: 5px;
 }
 
@@ -154,7 +153,7 @@
   margin: 5px;
   padding: 5px;
   box-shadow: 4px 4px 10px black;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 .navegaciones__menu {
@@ -162,7 +161,8 @@
   flex-direction: row;
   list-style: none;
   justify-content: space-around;
-  margin-bottom: 5px;
+  padding-left: 0;
+  margin-bottom: 0;
 }
 
 .navegaciones__paginas {
@@ -342,7 +342,7 @@
 
 .logoKangre2 {
   display: grid;
-  justify-items: start;
+  justify-content: center;
   margin: 5px;
 }
 
@@ -508,6 +508,7 @@ span:nth-child(odd) {
 }
 
 .comentarioKangre__boton {
+  color: black;
   font-size: 20px;
   margin: 2px;
   border-radius: 5px;
@@ -646,12 +647,6 @@ span:nth-child(odd) {
 
 /* Táblet */
 @media screen and (max-width: 1360px) {
-  /* .logoKangre {
-        justify-items: center;
-    } */
-  /* .cabecera {
-        text-align: center;
-    } */
   .comentario__comentario {
     display: flex;
     position: relative;
@@ -670,16 +665,53 @@ span:nth-child(odd) {
   .card {
     width: 40%;
   }
+  .comentarioKangre__formulario {
+    width: 30%;
+    height: 30%;
+  }
+}
+
+/* Táblet */
+@media screen and (max-width: 1000px) {
+  .comentarioKangre__formulario {
+    width: 40%;
+    height: 40%;
+  }
 }
 
 /* Táblet */
 @media screen and (max-width: 905px) {
+  .logoKangre {
+    justify-content: center;
+  }
+  .navegaciones {
+    display: block;
+    flex-direction: column;
+  }
+  .navegaciones__menu {
+    flex-direction: column;
+    text-align: center;
+  }
+  .navegaciones__menu a::before {
+    content: "🍔";
+  }
   .comentario__comentario {
     display: flex;
     position: relative;
   }
   .card {
     width: 50%;
+  }
+  .cabecera__textos {
+    margin: auto;
+  }
+}
+
+/* Táblet */
+@media screen and (max-width: 700px) {
+  .comentarioKangre__formulario {
+    width: 60%;
+    height: 60%;
   }
 }
 
@@ -694,28 +726,16 @@ span:nth-child(odd) {
   }
   .logoKangre {
     justify-items: center;
-    margin-bottom: 250px;
-  }
-  .cabecera {
-    text-align: center;
-    top: 185px;
-    left: 2%;
-  }
-  .tituloPagina {
-    font-size: 50px;
   }
   .logoKangre2 {
     justify-items: center;
-  }
-  .eslogan {
-    text-align: center;
-    left: 2%;
   }
   .navegaciones {
     margin-top: 20px;
   }
   .navegaciones__menu {
     display: block;
+    text-align: start;
     padding-left: 0px;
   }
   .navegaciones__menu a::before {
@@ -724,6 +744,12 @@ span:nth-child(odd) {
   .tituloTeEsperamos {
     align-items: center;
     font-size: 28px;
+  }
+  .nosotros__fotos--1 {
+    margin-bottom: 5px;
+  }
+  .nosotros__fotos--2 {
+    margin-bottom: 5px;
   }
   .ubicacion__fotoGps {
     height: 250px;
@@ -758,20 +784,15 @@ span:nth-child(odd) {
     text-align: center;
   }
   .comentarioKangre__formulario {
-    object-fit: none;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 100%;
-    height: 100%;
-    padding: 10px;
-    box-shadow: 4px 4px 10px black;
+    width: 60%;
+    height: 60%;
   }
   .contacto__titulo {
     font-size: 35px;
   }
   .comentarioKangre__boton {
     align-items: center;
-    width: 30%;
+    width: 32%;
     margin-top: 10px;
   }
   .iconoWsp {
@@ -779,5 +800,28 @@ span:nth-child(odd) {
   }
   .copyright {
     font-size: 15px;
+  }
+}
+
+/* Móvil */
+@media screen and (max-width: 500px) {
+  .comentarioKangre__boton {
+    width: 90px;
+    text-align: center;
+  }
+}
+
+/* Móvil */
+@media screen and (max-width: 370px) {
+  .comentarioKangre__titulo {
+    font-size: 30px;
+  }
+}
+
+/* Móvil */
+@media screen and (max-width: 345px) {
+  .comentarioKangre__boton {
+    width: 85px;
+    text-align: center;
   }
 }
