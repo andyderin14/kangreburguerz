@@ -1,15 +1,15 @@
 @media screen and (max-width: 1360px){
 
     .comentario__comentario {
-        display: flex;
-        position: relative;
-        margin: 5px;
+        display: map-get($comentarioKangre_mediaQuery, monitor);
+        position: map-get($comentarioKangre_mediaQuery, posicion);
+        margin: map-get($comentarioKangre_mediaQuery, margen);
     }
 
     .comentarioKangre__titulo {
-        display: flex;
-        position: relative;
-        margin: 5px;
+        display: map-get($comentarioKangre_mediaQuery, monitor);
+        position: map-get($comentarioKangre_mediaQuery, posicion);
+        margin: map-get($comentarioKangre_mediaQuery, margen);
     }
 
     .comentarioKangre__boton {
@@ -134,8 +134,8 @@
 }
 
 .comentario__comentario {
-    display: flex;
-    position: relative;
+    display: map-get($comentarioKangre_mediaQuery, monitor);
+    position: map-get($comentarioKangre_mediaQuery, posicion);
 }
 
 .row-card {

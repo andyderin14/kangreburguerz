@@ -5,14 +5,14 @@
         font-family: $font-familyPrincipal;
         color: $colorPrincipal;
         font-size: 45px;
-        -webkit-text-stroke: $-webkit-text-strokePrincipal;
         margin-bottom: 5px;
+        -webkit-text-stroke: $-webkit-text-strokePrincipal;
     }
 
     &__numero {
         font-family: $font-familyPrincipal;
-        font-size: 23px;
         color: $colorSecundario;
+        font-size: 23px;
         margin-bottom: 25px;
     }
 
@@ -54,12 +54,12 @@
     }
     
     &__boton {
+        font-family: $font-familyPrincipal;
         color: $colorSecundario;
         font-size: 20px;
-        margin: 2px;
         border-radius: 5px;
-        font-family: $font-familyPrincipal;
         width: 20%;
+        margin: 2px;
         margin-bottom: 10px;
     }
 }

@@ -16,6 +16,12 @@ $imgFondoDePantalla: (
         posicion: fixed,
 );
 
+$comentarioKangre_mediaQuery: (
+        monitor: flex,
+        posicion: relative,
+        margen: 5px,
+);
+
 @mixin textoBase ($font-familyPrincipal, $colorPrincipal, $-webkit-text-strokePrincipal){
         font-family: $font-familyPrincipal;
         color: $colorPrincipal;
