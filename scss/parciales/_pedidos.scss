@@ -32,3 +32,42 @@
         position: fixed;
     }
 }
+
+.btn__pedidos {
+    background-image: url(../imagenes/fongopantallakangree.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: $colorSecundario;
+    font-family: $font-familyPrincipal;
+    box-shadow: $box-shadowPrincipal;
+    font-size: 22px;
+     
+    &:hover {
+    color: $colorSecundario;
+    background-color: $colorSecundario;
+    border-color: $colorSecundario;
+    }
+}
+
+.btn:focus {
+    box-shadow: $box-shadowPrincipal;
+}
+
+
+.card_pedidos {
+    background-image: url(../imagenes/fongopantallakangree.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: $font-familyPrincipal;
+    color: $colorSecundario;
+    padding: 5px;
+}
+
+.pedidos__pasos {
+    text-align: start;
+    margin: 5px;
+}

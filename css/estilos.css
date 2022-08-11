@@ -516,6 +516,7 @@ span:nth-child(odd) {
 }
 
 .btn-light {
+  color: black;
   border-color: black;
 }
 
@@ -630,6 +631,44 @@ span:nth-child(odd) {
   left: 0;
   z-index: -1;
   position: fixed;
+}
+
+.btn__pedidos {
+  background-image: url(../imagenes/fongopantallakangree.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow";
+  box-shadow: 4px 4px 10px black;
+  font-size: 22px;
+}
+
+.btn__pedidos:hover {
+  color: black;
+  background-color: black;
+  border-color: black;
+}
+
+.btn:focus {
+  box-shadow: 4px 4px 10px black;
+}
+
+.card_pedidos {
+  background-image: url(../imagenes/fongopantallakangree.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  font-family: "Franklin Gothic Medium", "Arial Narrow";
+  color: black;
+  padding: 5px;
+}
+
+.pedidos__pasos {
+  text-align: start;
+  margin: 5px;
 }
 
 @media screen and (max-width: 1360px) {
@@ -776,6 +815,13 @@ span:nth-child(odd) {
     align-items: center;
     width: 32%;
     margin-top: 10px;
+  }
+  .pedidos_btn {
+    padding: 10px;
+  }
+  .pedidos__pasos {
+    font-size: 15px;
+    padding: 5%;
   }
   .iconoWsp {
     margin-bottom: 5px;

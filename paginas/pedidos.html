@@ -49,8 +49,28 @@
     <main>
         <div class="pedidos">
             <h1 class="pedidos__titulo">Haz tu pedido desde la web</h1>
-            <h2 class="pedidos__pedidosYa">Pedidos Ya!</h2>
+        
+            <div class="pedidos_btn">
+                <p>
+                    <button class="btn btn-outline-dark btn__pedidos" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                        Te enseñamos como pedir nuestras Kangre Burguerz 👇
+                    </button>
+                </p>
+                <div class="collapse" id="collapseExample">
+                    <div class="card card-body card_pedidos">
+                    <ol class="pedidos__pasos">
+                        <li>Antes de empezar a realizar pedidos, es necesario que te registres, para que la empresa (Pedidos Ya) pueda comunicarse contigo en caso de que ocurra algún inconveniente.</li>
+                        <li>Debes de ingresar la dirección en la cual será entregado el delivery.</li>
+                        <li>Seleccionar el menú que prefieras.</li>
+                        <li>Seleccionar las opciones de pago e ingresar tus datos.</li>
+                        <li>Si está todo en orden, te llegará un mensaje donde explique que la orden ya ha sido confirmada, y sólo debes de esperar en tu domicilio a que llegue tu comida.</li>
+                        <li>Disfrutar de tu compra en Kangre Burguerz!</li>
+                    </ol>
+                    </div>
+                </div>
+            </div>
 
+            <h2 class="pedidos__pedidosYa">Pedidos Ya!</h2>
             <a href="https://www.pedidosya.com.ar/restaurantes/mar-del-plata/kangreburguers-menu?search=kangreburgerz" target="_blank">
                 <img class="pedidos__icono" src="../imagenes/pedidosyaicono.jpg" alt="pedidosya" width="75" height="75">
             </a>
