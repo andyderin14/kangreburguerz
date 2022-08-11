@@ -817,11 +817,12 @@ span:nth-child(odd) {
     margin-top: 10px;
   }
   .pedidos_btn {
-    padding: 10px;
+    font-weight: bold;
+    padding: 13px;
   }
   .pedidos__pasos {
     font-size: 15px;
-    padding: 5%;
+    padding-right: 0;
   }
   .iconoWsp {
     margin-bottom: 5px;
