@@ -669,6 +669,7 @@ span:nth-child(odd) {
 .pedidos__pasos {
   text-align: start;
   margin: 5px;
+  padding-left: 1rem;
 }
 
 @media screen and (max-width: 1360px) {
@@ -817,8 +818,14 @@ span:nth-child(odd) {
     margin-top: 10px;
   }
   .pedidos_btn {
+    padding: 10px;
+  }
+  .btn__pedidos {
     font-weight: bold;
-    padding: 13px;
+  }
+  .pedidos__pasos {
+    font-weight: bold;
+    padding-left: 1rem;
   }
   .pedidos__pasos {
     font-size: 15px;
