@@ -24,10 +24,7 @@
     color: $colorPrincipal;
     font-size: 45px;
     -webkit-text-stroke: $-webkit-text-strokePrincipal;
-    margin: 5px;
-    padding: 5px;
-    box-shadow: $box-shadowPrincipal;
-    border-radius: $border-radiusPrincipal;
-    display: grid;
-    align-items: center;
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 0;
 }

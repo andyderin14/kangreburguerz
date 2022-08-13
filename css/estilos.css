@@ -204,6 +204,7 @@
   border: solid 2px black;
   border-radius: 10px;
   box-shadow: 4px 4px 10px black;
+  margin-bottom: 15px;
 }
 
 .nosotros__fotos {
@@ -258,12 +259,9 @@
   color: red;
   font-size: 45px;
   -webkit-text-stroke: 1px black;
-  margin: 5px;
-  padding: 5px;
-  box-shadow: 4px 4px 10px black;
-  border-radius: 10px;
-  display: grid;
-  align-items: center;
+  text-align: center;
+  padding-top: 10px;
+  margin-bottom: 0;
 }
 
 .horarios {
