@@ -29,6 +29,16 @@
     position: fixed;
 }
 
+.card__quienesSomos {
+    background-image: url(../imagenes/fongopantallakangree.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 3px;
+    padding-bottom: 0;
+}
+
 .card {
     margin: 0 auto;
     width: 25%;
