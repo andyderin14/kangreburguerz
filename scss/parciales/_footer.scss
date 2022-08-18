@@ -1,24 +1,21 @@
 .redes {
-    background-image: url(../imagenes/fongopantallakangree.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background: fixed;
     border-radius: $border-radiusPrincipal;
-    margin: 5px;
-    padding: 5px;
-    margin-bottom: 20px;
     display: flex;
     justify-content: center;
-    column-gap: 10px;
 
     &__titulo {
         font-family: $font-familyPrincipal;
         color: $colorPrincipal;
         font-size: 45px;
         -webkit-text-stroke: $-webkit-text-strokePrincipal;
-        display: flex;
-        justify-content: flex-end;
     }
+    }
+
+.redes__sociales {
+        display: flex;
+        justify-content: center;
+        column-gap: 10px;
+        margin-bottom: 20px;
 }
 
 .iconoWsp {
