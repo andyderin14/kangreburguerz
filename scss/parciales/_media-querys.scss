@@ -156,6 +156,40 @@
     text-align: center;
 }
 
+.menu__menu {
+    margin: 10px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.menu__accordion {
+    color: $colorSecundario;
+    border: $borderPrincipal;
+    box-shadow: 2px 2px 4px black;
+    &:hover {
+        color: $colorSecundario;
+        background-color: $colorSecundario;
+        border-color: $colorSecundario;
+        box-shadow: 2px 2px 4px black;
+        }
+}
+
+.accordion-collapse{
+    color: black;
+
+    &:hover {
+        color: black;
+}
+}
+
+.menu__ingredientes {
+    font-weight: bold;
+}
+
+.menu__comidas {
+    border-radius: $border-radiusPrincipal;
+}
+
 .comentarioKangre__formulario {
     width: 60%;
     height: 60%;

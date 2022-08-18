@@ -602,7 +602,7 @@ span:nth-child(odd) {
   object-fit: cover;
 }
 
-.accordion__menu {
+.menu__accordion {
   background-image: url(../imagenes/fongopantallakangree.jpg);
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -809,6 +809,34 @@ span:nth-child(odd) {
   .menu__vistaMobile {
     display: block;
     text-align: center;
+  }
+  .menu__menu {
+    margin: 10px;
+    padding: 10px;
+    margin-bottom: 15px;
+  }
+  .menu__accordion {
+    color: black;
+    border: solid 2px black;
+    box-shadow: 2px 2px 4px black;
+  }
+  .menu__accordion:hover {
+    color: black;
+    background-color: black;
+    border-color: black;
+    box-shadow: 2px 2px 4px black;
+  }
+  .accordion-collapse {
+    color: black;
+  }
+  .accordion-collapse:hover {
+    color: black;
+  }
+  .menu__ingredientes {
+    font-weight: bold;
+  }
+  .menu__comidas {
+    border-radius: 10px;
   }
   .comentarioKangre__formulario {
     width: 60%;
