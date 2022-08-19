@@ -865,6 +865,9 @@ span:nth-child(odd) {
   .quienesSomos__parrafo {
     font-weight: bold;
   }
+  .horarios__dias {
+    font-weight: bold;
+  }
   .iconoWsp {
     margin-bottom: 5px;
   }
