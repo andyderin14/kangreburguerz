@@ -525,6 +525,10 @@ span:nth-child(odd) {
   box-shadow: 2px 2px 4px black;
 }
 
+.comentarioKangre__nombre:hover {
+  border: solid 2px black;
+}
+
 .comentarioKangre__mensaje {
   width: 100%;
   border-radius: 5px;
