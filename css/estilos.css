@@ -483,8 +483,6 @@ span:nth-child(odd) {
 }
 
 .comentarioKangre {
-  text-align: center;
-  margin: 5px;
   display: flex;
   justify-content: center;
 }
@@ -494,19 +492,47 @@ span:nth-child(odd) {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
   width: 40%;
   height: 35%;
+  padding: 10px;
   margin-bottom: 20px;
   border-radius: 10px;
   border: solid 2px black;
   box-shadow: 4px 4px 10px black;
+  position: relative;
 }
 
-.comentarioKangre__titulo {
+.comentarioKangre__tituloMensaje {
   font-family: "Franklin Gothic Medium", "Arial Narrow";
   color: red;
   font-size: 45px;
   -webkit-text-stroke: 1px black;
+  flex-direction: column;
+}
+
+.comentarioKangre__tituloNombre {
+  display: block;
+  font-family: "Franklin Gothic Medium", "Arial Narrow";
+  color: red;
+  font-size: 45px;
+  -webkit-text-stroke: 1px black;
+}
+
+.comentarioKangre__nombre {
+  width: 30%;
+  height: 30px;
+  border-radius: 5px;
+  border: solid 2px black;
+  box-shadow: 2px 2px 4px black;
+}
+
+.comentarioKangre__mensaje {
+  width: 100%;
+  border-radius: 5px;
+  border: solid 2px black;
+  box-shadow: 2px 2px 4px black;
+  margin-bottom: 10px;
 }
 
 .comentarioKangre__boton {
@@ -516,7 +542,6 @@ span:nth-child(odd) {
   border-radius: 5px;
   width: 20%;
   margin: 2px;
-  margin-bottom: 10px;
 }
 
 .btn-light {
@@ -685,16 +710,6 @@ span:nth-child(odd) {
 }
 
 @media screen and (max-width: 1360px) {
-  .comentario__comentario {
-    display: flex;
-    position: relative;
-    margin: 5px;
-  }
-  .comentarioKangre__titulo {
-    display: flex;
-    position: relative;
-    margin: 5px;
-  }
   .comentarioKangre__boton {
     align-items: center;
     width: 30%;
@@ -711,8 +726,8 @@ span:nth-child(odd) {
 
 @media screen and (max-width: 1000px) {
   .comentarioKangre__formulario {
-    width: 40%;
-    height: 40%;
+    width: 50%;
+    height: 50%;
   }
 }
 
@@ -731,22 +746,11 @@ span:nth-child(odd) {
   .navegaciones__menu a::before {
     content: "🍔";
   }
-  .comentario__comentario {
-    display: flex;
-    position: relative;
-  }
   .card {
     width: 50%;
   }
   .cabecera__textos {
     margin: auto;
-  }
-}
-
-@media screen and (max-width: 700px) {
-  .comentarioKangre__formulario {
-    width: 60%;
-    height: 60%;
   }
 }
 
@@ -787,10 +791,6 @@ span:nth-child(odd) {
   }
   .comentarioKangre__titulo {
     font-size: 35px;
-  }
-  .comentario__comentario {
-    display: flex;
-    position: relative;
   }
   .row-card {
     margin-bottom: 10px;
@@ -837,8 +837,18 @@ span:nth-child(odd) {
     font-weight: bold;
   }
   .comentarioKangre__formulario {
-    width: 60%;
-    height: 60%;
+    width: 70%;
+    height: 70%;
+  }
+  .comentarioKangre__tituloNombre {
+    font-size: 30px;
+  }
+  .comentarioKangre__tituloMensaje {
+    font-size: 30px;
+  }
+  .comentarioKangre__nombre {
+    width: 50%;
+    height: 25px;
   }
   .contacto__titulo {
     font-size: 35px;

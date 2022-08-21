@@ -28,8 +28,6 @@
 }
 
 .comentarioKangre {
-    text-align: center;
-    margin: 5px;
     display: flex;
     justify-content: center;
 
@@ -38,21 +36,50 @@
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
+        background-size: cover;
         width: 40%;
         height: 35%;
+        padding: 10px;
         margin-bottom: 20px;
         border-radius: $border-radiusPrincipal;
         border: $borderPrincipal;
         box-shadow: $box-shadowPrincipal;
+        position: relative;
         }
     
-    &__titulo {
+    &__tituloMensaje {
+        font-family: $font-familyPrincipal;
+        color: $colorPrincipal;
+        font-size: 45px;
+        -webkit-text-stroke: $-webkit-text-strokePrincipal;
+        flex-direction: column;
+    }
+
+    &__tituloNombre {
+        display: block;
         font-family: $font-familyPrincipal;
         color: $colorPrincipal;
         font-size: 45px;
         -webkit-text-stroke: $-webkit-text-strokePrincipal;
     }
+
     
+    &__nombre {
+        width: 30%;
+        height: 30px;
+        border-radius: 5px;
+        border: $borderPrincipal;
+        box-shadow: 2px 2px 4px black;
+    }
+
+    &__mensaje {
+        width: 100%;
+        border-radius: 5px;
+        border: $borderPrincipal;
+        box-shadow: 2px 2px 4px black;
+        margin-bottom: 10px;
+    }
+
     &__boton {
         font-family: $font-familyPrincipal;
         color: $colorSecundario;
@@ -60,7 +87,6 @@
         border-radius: 5px;
         width: 20%;
         margin: 2px;
-        margin-bottom: 10px;
     }
 }
 

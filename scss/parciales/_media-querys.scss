@@ -1,16 +1,16 @@
 @media screen and (max-width: 1360px){
 
-    .comentario__comentario {
-        display: map-get($comentarioKangre_mediaQuery, monitor);
-        position: map-get($comentarioKangre_mediaQuery, posicion);
-        margin: map-get($comentarioKangre_mediaQuery, margen);
-    }
+    // .comentario__comentario {
+    //     display: map-get($comentarioKangre_mediaQuery, monitor);
+    //     position: map-get($comentarioKangre_mediaQuery, posicion);
+    //     margin: map-get($comentarioKangre_mediaQuery, margen);
+    // }
 
-    .comentarioKangre__titulo {
-        display: map-get($comentarioKangre_mediaQuery, monitor);
-        position: map-get($comentarioKangre_mediaQuery, posicion);
-        margin: map-get($comentarioKangre_mediaQuery, margen);
-    }
+    // .comentarioKangre__titulo {
+    //     display: map-get($comentarioKangre_mediaQuery, monitor);
+    //     position: map-get($comentarioKangre_mediaQuery, posicion);
+    //     margin: map-get($comentarioKangre_mediaQuery, margen);
+    // }
 
     .comentarioKangre__boton {
         align-items:center;
@@ -30,8 +30,8 @@
 
 @media screen and (max-width: 1000px) {
     .comentarioKangre__formulario {
-    width: 40%;
-    height: 40%;
+    width: 50%;
+    height: 50%;
     }
 }
 
@@ -53,10 +53,10 @@
         }
     }
 
-    .comentario__comentario {
-        display: flex;
-        position: relative;
-    }
+    // .comentario__comentario {
+    //     display: flex;
+    //     position: relative;
+    // }
 
     .card {
         width: 50%;
@@ -68,10 +68,10 @@
 }
 
 @media screen and (max-width: 700px){
-    .comentarioKangre__formulario {
-        width: 60%;
-        height: 60%;
-    }
+    // .comentarioKangre__formulario {
+    //     width: 60%;
+    //     height: 60%;
+    // }
 }
 
 @media screen and (max-width: 599px){
@@ -128,10 +128,10 @@
     font-size: 35px;
 }
 
-.comentario__comentario {
-    display: map-get($comentarioKangre_mediaQuery, monitor);
-    position: map-get($comentarioKangre_mediaQuery, posicion);
-}
+// .comentario__comentario {
+//     display: map-get($comentarioKangre_mediaQuery, monitor);
+//     position: map-get($comentarioKangre_mediaQuery, posicion);
+// }
 
 .row-card {
     margin-bottom: 10px;
@@ -187,8 +187,21 @@
 }
 
 .comentarioKangre__formulario {
-    width: 60%;
-    height: 60%;
+    width: 70%;
+    height: 70%;
+}
+
+.comentarioKangre__tituloNombre {
+    font-size: 30px;
+}
+
+.comentarioKangre__tituloMensaje {
+    font-size: 30px;
+}
+
+.comentarioKangre__nombre {
+    width: 50%;
+    height: 25px;
 }
 
 .contacto__titulo {
