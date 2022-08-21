@@ -44,7 +44,6 @@
         border-radius: $border-radiusPrincipal;
         border: $borderPrincipal;
         box-shadow: $box-shadowPrincipal;
-        position: relative;
         }
     
     &__tituloMensaje {
@@ -52,7 +51,6 @@
         color: $colorPrincipal;
         font-size: 45px;
         -webkit-text-stroke: $-webkit-text-strokePrincipal;
-        flex-direction: column;
     }
 
     &__tituloNombre {

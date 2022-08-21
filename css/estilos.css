@@ -500,7 +500,6 @@ span:nth-child(odd) {
   border-radius: 10px;
   border: solid 2px black;
   box-shadow: 4px 4px 10px black;
-  position: relative;
 }
 
 .comentarioKangre__tituloMensaje {
@@ -508,7 +507,6 @@ span:nth-child(odd) {
   color: red;
   font-size: 45px;
   -webkit-text-stroke: 1px black;
-  flex-direction: column;
 }
 
 .comentarioKangre__tituloNombre {
