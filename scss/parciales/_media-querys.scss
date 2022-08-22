@@ -138,6 +138,10 @@
     font-size: 35px;
 }
 
+.contactoKangre__mensajeBox {
+    margin-bottom: 15px;
+}
+
 // .comentario__comentario {
 //     display: map-get($comentarioKangre_mediaQuery, monitor);
 //     position: map-get($comentarioKangre_mediaQuery, posicion);
@@ -211,7 +215,7 @@
 
 .comentarioKangre__nombre {
     width: 60%;
-    height: 25px;
+    height: 30px;
 }
 
 .contactoKangre__mensajeParrafo {
