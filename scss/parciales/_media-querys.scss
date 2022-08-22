@@ -23,7 +23,7 @@
     }
 
     .comentarioKangre__formulario {
-        // width: 30%;
+        width: 30%;
         height: 30%;
     }
 }
@@ -200,8 +200,16 @@
 }
 
 .comentarioKangre__nombre {
-    width: 50%;
+    width: 60%;
     height: 25px;
+}
+
+.contactoKangre__mensajeParrafo {
+    font-weight: bold;
+}
+
+.contacto__numero {
+    font-weight: bold;
 }
 
 .contacto__titulo {

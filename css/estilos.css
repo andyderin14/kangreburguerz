@@ -556,7 +556,7 @@ span:nth-child(odd) {
   color: black;
   font-size: 22px;
   text-align: center;
-  padding: 5px;
+  padding-left: 5px;
   margin-bottom: 0;
 }
 
@@ -735,6 +735,7 @@ span:nth-child(odd) {
     width: 40%;
   }
   .comentarioKangre__formulario {
+    width: 30%;
     height: 30%;
   }
 }
@@ -862,8 +863,14 @@ span:nth-child(odd) {
     font-size: 30px;
   }
   .comentarioKangre__nombre {
-    width: 50%;
+    width: 60%;
     height: 25px;
+  }
+  .contactoKangre__mensajeParrafo {
+    font-weight: bold;
+  }
+  .contacto__numero {
+    font-weight: bold;
   }
   .contacto__titulo {
     font-size: 35px;
