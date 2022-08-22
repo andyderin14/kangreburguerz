@@ -120,3 +120,27 @@
     border: $borderPrincipal;
     box-shadow: 2px 2px 4px black;
 }
+
+.modal__muchasGracias {
+    background-image: url(../imagenes/fongopantallakangree.jpg);
+    background-attachment: fixed;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit:fill;
+}
+
+.modal__parrafoTitulo {
+    font-family: $font-familyPrincipal;
+    color: red;
+    font-weight: bold;
+    font-size: 30px;
+    -webkit-text-stroke: $-webkit-text-strokePrincipal;
+}
+
+.modal__parrafoBody {
+    font-family: $font-familyPrincipal;
+    color: $colorSecundario;
+    font-size: 22px;
+    font-weight: bold;
+}
