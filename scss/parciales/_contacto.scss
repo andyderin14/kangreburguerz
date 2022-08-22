@@ -28,8 +28,7 @@
 }
 
 .comentarioKangre {
-    display: flex;
-    justify-content: center;
+    
 
     &__formulario {
         background-image: url(../imagenes/fongopantallakangree.jpg);
@@ -37,7 +36,7 @@
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        width: 40%;
+        // width: 40%;
         height: 35%;
         padding: 10px;
         margin-bottom: 20px;
@@ -90,6 +89,27 @@
         width: 20%;
         margin: 2px;
     }
+}
+
+.contactoKangre__mensajeCard {
+    background-image: url(../imagenes/fongopantallakangree.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: $borderPrincipal;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px black;
+}
+
+
+.contactoKangre__mensajeParrafo {
+    font-family: $font-familyPrincipal;
+    color: $colorSecundario;
+    font-size: 22px;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 0;
 }
 
 .btn-light {
