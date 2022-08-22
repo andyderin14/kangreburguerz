@@ -90,6 +90,15 @@
     }
 }
 
+
+
+.modal__boton {
+        font-family: $font-familyPrincipal;
+        color: $colorSecundario;
+        font-size: 20px;
+        border-top: $borderPrincipal;
+}
+
 .contactoKangre__mensajeCard {
     // background-image: url(../imagenes/fongopantallakangree.jpg);
     // background-attachment: fixed;
@@ -128,14 +137,28 @@
     background-repeat: no-repeat;
     background-size: cover;
     object-fit:fill;
+    border-radius: $border-radiusPrincipal;
+    border: $borderPrincipal;
+    box-shadow: $box-shadowPrincipal;
+}
+
+.modal__titulo {
+    background-image: url(../imagenes/fongopantallakangree.jpg);
+    background-attachment: fixed;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit:fill;
+    border-bottom: $borderPrincipal;
 }
 
 .modal__parrafoTitulo {
     font-family: $font-familyPrincipal;
-    color: red;
+    color: $colorPrincipal;
     font-weight: bold;
     font-size: 30px;
     -webkit-text-stroke: $-webkit-text-strokePrincipal;
+  
 }
 
 .modal__parrafoBody {

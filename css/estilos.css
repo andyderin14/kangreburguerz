@@ -535,6 +535,13 @@ span:nth-child(odd) {
   margin: 2px;
 }
 
+.modal__boton {
+  font-family: "Franklin Gothic Medium", "Arial Narrow";
+  color: black;
+  font-size: 20px;
+  border-top: solid 2px black;
+}
+
 .contactoKangre__mensajeCard {
   border: solid 2px black;
   border-radius: 10px;
@@ -567,6 +574,19 @@ span:nth-child(odd) {
   background-repeat: no-repeat;
   background-size: cover;
   object-fit: fill;
+  border-radius: 10px;
+  border: solid 2px black;
+  box-shadow: 4px 4px 10px black;
+}
+
+.modal__titulo {
+  background-image: url(../imagenes/fongopantallakangree.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: fill;
+  border-bottom: solid 2px black;
 }
 
 .modal__parrafoTitulo {
