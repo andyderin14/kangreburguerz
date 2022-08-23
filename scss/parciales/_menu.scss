@@ -27,7 +27,7 @@
     }
     
     &__imgFondoDePantalla {
-        background-repeat: no-repeat;
+        background-repeat: $background-repeatPrincipal;
         width: 100%;
         height: 100%;
         top: 0;
@@ -68,7 +68,7 @@
 .menu__accordion {
     background-image: url(../imagenes/fongopantallakangree.jpg);
     background-attachment: fixed;
-    background-repeat: no-repeat;
+    background-repeat: $background-repeatPrincipal;
     background-position: center;
     background-size: cover;
 }
