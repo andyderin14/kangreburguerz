@@ -6,6 +6,10 @@
         @include textoBase ($font-familyPrincipal, $colorPrincipal, $-webkit-text-strokePrincipal)
     }
 
+    &__carrusel {
+        padding: 15px;
+    }
+
     &__vistaMobile {
         display: none;
     }
@@ -21,10 +25,6 @@
         font-size: 23px;
         margin-bottom: 5px;
     }
-
-    &__carrusel {
-        padding: 15px;
-    }
     
     &__imgFondoDePantalla {
         background-repeat: $background-repeatPrincipal;
@@ -34,6 +34,14 @@
         left: 0;
         z-index: -1;
         position: fixed;
+    }
+
+    &__accordion {
+        background-image: url(../imagenes/fongopantallakangree.jpg);
+        background-attachment: fixed;
+        background-repeat: $background-repeatPrincipal;
+        background-position: center;
+        background-size: cover;
     }
 }
 
@@ -63,12 +71,4 @@
     height: 595px;
     border-radius: $border-radiusPrincipal;
     object-fit: cover;
-}
-
-.menu__accordion {
-    background-image: url(../imagenes/fongopantallakangree.jpg);
-    background-attachment: fixed;
-    background-repeat: $background-repeatPrincipal;
-    background-position: center;
-    background-size: cover;
 }

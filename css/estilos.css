@@ -616,6 +616,10 @@ span:nth-child(odd) {
   -webkit-text-stroke: 1px black;
 }
 
+.menu__carrusel {
+  padding: 15px;
+}
+
 .menu__vistaMobile {
   display: none;
 }
@@ -634,10 +638,6 @@ span:nth-child(odd) {
   margin-bottom: 5px;
 }
 
-.menu__carrusel {
-  padding: 15px;
-}
-
 .menu__imgFondoDePantalla {
   background-repeat: no-repeat;
   width: 100%;
@@ -646,6 +646,14 @@ span:nth-child(odd) {
   left: 0;
   z-index: -1;
   position: fixed;
+}
+
+.menu__accordion {
+  background-image: url(../imagenes/fongopantallakangree.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .carousel {
@@ -676,14 +684,6 @@ span:nth-child(odd) {
   height: 595px;
   border-radius: 10px;
   object-fit: cover;
-}
-
-.menu__accordion {
-  background-image: url(../imagenes/fongopantallakangree.jpg);
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
 }
 
 .pedidos {

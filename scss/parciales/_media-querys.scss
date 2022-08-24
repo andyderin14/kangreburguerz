@@ -170,13 +170,13 @@
 }
 
 .menu__accordion {
-    background-color: black;
+    background-color: $colorSecundario;
     color: $colorSecundario;
     border-radius: 10px;
     border: $borderPrincipal;
     box-shadow: $box-shadowSecundario;
     &:hover {
-        background-color: black;
+        background-color: $colorSecundario;
         color: $colorSecundario;
         border-radius: 10px;
         border-color: $colorSecundario;
@@ -200,7 +200,6 @@
     width: 60%;
     height: 30px;
 }
-
 
 .contacto__titulo {
     font-size: 35px;
