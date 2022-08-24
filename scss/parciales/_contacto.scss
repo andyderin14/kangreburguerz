@@ -108,7 +108,7 @@
 .modal__parrafoTitulo {
     font-family: $font-familyPrincipal;
     color: $colorPrincipal;
-    font-weight: bold;
+    font-weight: $font-weightPrincipal;
     font-size: 30px;
     -webkit-text-stroke: $-webkit-text-strokePrincipal;
 }
@@ -117,7 +117,7 @@
     font-family: $font-familyPrincipal;
     color: $colorSecundario;
     font-size: 22px;
-    font-weight: bold;
+    font-weight: $font-weightPrincipal;
 }
 
 .modal__boton {
