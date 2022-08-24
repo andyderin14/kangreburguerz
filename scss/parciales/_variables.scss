@@ -2,6 +2,7 @@ $colorPrincipal: red;
 $colorSecundario: black;
 $font-familyPrincipal: 'Franklin Gothic Medium', 'Arial Narrow';
 $box-shadowPrincipal: 4px 4px 10px black;
+$box-shadowSecundario: 2px 2px 4px black;
 $-webkit-text-strokePrincipal: 1px black;
 $borderPrincipal: solid 2px black;
 $border-radiusPrincipal: 10px;
@@ -16,12 +17,6 @@ $imgFondoDePantalla: (
         left: 0,
         z-index: -1,
         posicion: fixed,
-);
-
-$comentarioKangre_mediaQuery: (
-        monitor: flex,
-        posicion: relative,
-        margen: 5px,
 );
 
 @mixin textoBase ($font-familyPrincipal, $colorPrincipal, $-webkit-text-strokePrincipal){

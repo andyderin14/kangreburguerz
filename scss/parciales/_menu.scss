@@ -68,7 +68,7 @@
 .menu__accordion {
     background-image: url(../imagenes/fongopantallakangree.jpg);
     background-attachment: fixed;
-    background-repeat: no-repeat;
+    background-repeat: $background-repeatPrincipal;
     background-position: center;
     background-size: cover;
 }

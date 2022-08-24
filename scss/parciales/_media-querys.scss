@@ -174,13 +174,13 @@
     color: $colorSecundario;
     border-radius: 10px;
     border: $borderPrincipal;
-    box-shadow: 2px 2px 4px black;
+    box-shadow: $box-shadowSecundario;
     &:hover {
         background-color: black;
         color: $colorSecundario;
         border-radius: 10px;
         border-color: $colorSecundario;
-        box-shadow: 2px 2px 4px black;
+        box-shadow: $box-shadowSecundario;
         }
 }
 

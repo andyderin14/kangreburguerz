@@ -51,7 +51,7 @@
             height: 30px;
             border-radius: 5px;
             border: $borderPrincipal;
-            box-shadow: 2px 2px 4px black;
+            box-shadow: $box-shadowSecundario;
     
             &:hover {
                 border: solid 2px black;
@@ -69,7 +69,7 @@
         width: 100%;
         border-radius: 5px;
         border: $borderPrincipal;
-        box-shadow: 2px 2px 4px black;
+        box-shadow: $box-shadowSecundario;
         margin-bottom: 10px;
     }
 
@@ -149,5 +149,5 @@
 
 .btn {
     border: $borderPrincipal;
-    box-shadow: 2px 2px 4px black;
+    box-shadow: $box-shadowSecundario;
 }
