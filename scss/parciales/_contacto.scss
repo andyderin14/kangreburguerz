@@ -37,33 +37,32 @@
         border: $borderPrincipal;
         box-shadow: $box-shadowPrincipal;
         }
+
+    &__tituloNombre {
+            display: block;
+            font-family: $font-familyPrincipal;
+            color: $colorPrincipal;
+            font-size: 45px;
+            -webkit-text-stroke: $-webkit-text-strokePrincipal;
+        }
+
+        &__nombre {
+            width: 30%;
+            height: 30px;
+            border-radius: 5px;
+            border: $borderPrincipal;
+            box-shadow: 2px 2px 4px black;
+    
+            &:hover {
+                border: solid 2px black;
+            }
+        }
     
     &__tituloMensaje {
         font-family: $font-familyPrincipal;
         color: $colorPrincipal;
         font-size: 45px;
         -webkit-text-stroke: $-webkit-text-strokePrincipal;
-    }
-
-    &__tituloNombre {
-        display: block;
-        font-family: $font-familyPrincipal;
-        color: $colorPrincipal;
-        font-size: 45px;
-        -webkit-text-stroke: $-webkit-text-strokePrincipal;
-    }
-
-    
-    &__nombre {
-        width: 30%;
-        height: 30px;
-        border-radius: 5px;
-        border: $borderPrincipal;
-        box-shadow: 2px 2px 4px black;
-
-        &:hover {
-            border: solid 2px black;
-        }
     }
 
     &__mensaje {
@@ -84,7 +83,42 @@
     }
 }
 
+.modal__muchasGracias {
+    background-image: url(../imagenes/fongopantallakangree.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: $background-repeatPrincipal;
+    background-size: cover;
+    object-fit: fill;
+    border-radius: $border-radiusPrincipal;
+    border: $borderPrincipal;
+    box-shadow: $box-shadowPrincipal;
+}
 
+.modal__titulo {
+    background-image: url(../imagenes/fongopantallakangree.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: $background-repeatPrincipal;
+    background-size: cover;
+    object-fit: fill;
+    border-bottom: $borderPrincipal;
+}
+
+.modal__parrafoTitulo {
+    font-family: $font-familyPrincipal;
+    color: $colorPrincipal;
+    font-weight: bold;
+    font-size: 30px;
+    -webkit-text-stroke: $-webkit-text-strokePrincipal;
+}
+
+.modal__parrafoBody {
+    font-family: $font-familyPrincipal;
+    color: $colorSecundario;
+    font-size: 22px;
+    font-weight: bold;
+}
 
 .modal__boton {
         font-family: $font-familyPrincipal;
@@ -94,16 +128,10 @@
 }
 
 .contactoKangre__mensajeCard {
-    // background-image: url(../imagenes/fongopantallakangree.jpg);
-    // background-attachment: fixed;
-    // background-position: center;
-    // background-repeat: no-repeat;
-    // background-size: cover;
     border: $borderPrincipal;
     border-radius: 10px;
-    box-shadow: 4px 4px 10px black;
+    box-shadow: $box-shadowPrincipal;
 }
-
 
 .contactoKangre__mensajeParrafo {
     font-family: $font-familyPrincipal;
@@ -122,42 +150,4 @@
 .btn {
     border: $borderPrincipal;
     box-shadow: 2px 2px 4px black;
-}
-
-.modal__muchasGracias {
-    background-image: url(../imagenes/fongopantallakangree.jpg);
-    background-attachment: fixed;
-    background-position:center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    object-fit:fill;
-    border-radius: $border-radiusPrincipal;
-    border: $borderPrincipal;
-    box-shadow: $box-shadowPrincipal;
-}
-
-.modal__titulo {
-    background-image: url(../imagenes/fongopantallakangree.jpg);
-    background-attachment: fixed;
-    background-position:center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    object-fit:fill;
-    border-bottom: $borderPrincipal;
-}
-
-.modal__parrafoTitulo {
-    font-family: $font-familyPrincipal;
-    color: $colorPrincipal;
-    font-weight: bold;
-    font-size: 30px;
-    -webkit-text-stroke: $-webkit-text-strokePrincipal;
-  
-}
-
-.modal__parrafoBody {
-    font-family: $font-familyPrincipal;
-    color: $colorSecundario;
-    font-size: 22px;
-    font-weight: bold;
 }

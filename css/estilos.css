@@ -57,6 +57,12 @@
   margin-bottom: 15px;
 }
 
+.logoKangre {
+  display: grid;
+  justify-content: center;
+  margin: 5px;
+}
+
 .tituloPagina {
   font-family: "Franklin Gothic Medium", "Arial Narrow";
   font-size: 60px;
@@ -126,12 +132,6 @@
     filter: blur(0px);
     opacity: 1;
   }
-}
-
-.logoKangre {
-  display: grid;
-  justify-content: center;
-  margin: 5px;
 }
 
 .eslogan {
@@ -414,6 +414,7 @@ p:nth-child(odd) {
 span:nth-child(odd) {
   color: red;
   -webkit-text-stroke: 0.5px black;
+  font-weight: bold;
 }
 
 .ubicacion {
@@ -491,13 +492,6 @@ span:nth-child(odd) {
   box-shadow: 4px 4px 10px black;
 }
 
-.comentarioKangre__tituloMensaje {
-  font-family: "Franklin Gothic Medium", "Arial Narrow";
-  color: red;
-  font-size: 45px;
-  -webkit-text-stroke: 1px black;
-}
-
 .comentarioKangre__tituloNombre {
   display: block;
   font-family: "Franklin Gothic Medium", "Arial Narrow";
@@ -518,6 +512,13 @@ span:nth-child(odd) {
   border: solid 2px black;
 }
 
+.comentarioKangre__tituloMensaje {
+  font-family: "Franklin Gothic Medium", "Arial Narrow";
+  color: red;
+  font-size: 45px;
+  -webkit-text-stroke: 1px black;
+}
+
 .comentarioKangre__mensaje {
   width: 100%;
   border-radius: 5px;
@@ -533,38 +534,6 @@ span:nth-child(odd) {
   border-radius: 5px;
   width: 20%;
   margin: 2px;
-}
-
-.modal__boton {
-  font-family: "Franklin Gothic Medium", "Arial Narrow";
-  color: black;
-  font-size: 20px;
-  border-top: solid 2px black;
-}
-
-.contactoKangre__mensajeCard {
-  border: solid 2px black;
-  border-radius: 10px;
-  box-shadow: 4px 4px 10px black;
-}
-
-.contactoKangre__mensajeParrafo {
-  font-family: "Franklin Gothic Medium", "Arial Narrow";
-  color: black;
-  font-size: 22px;
-  text-align: center;
-  padding-left: 5px;
-  margin-bottom: 0;
-}
-
-.btn-light {
-  color: black;
-  border-color: black;
-}
-
-.btn {
-  border: solid 2px black;
-  box-shadow: 2px 2px 4px black;
 }
 
 .modal__muchasGracias {
@@ -602,6 +571,38 @@ span:nth-child(odd) {
   color: black;
   font-size: 22px;
   font-weight: bold;
+}
+
+.modal__boton {
+  font-family: "Franklin Gothic Medium", "Arial Narrow";
+  color: black;
+  font-size: 20px;
+  border-top: solid 2px black;
+}
+
+.contactoKangre__mensajeCard {
+  border: solid 2px black;
+  border-radius: 10px;
+  box-shadow: 4px 4px 10px black;
+}
+
+.contactoKangre__mensajeParrafo {
+  font-family: "Franklin Gothic Medium", "Arial Narrow";
+  color: black;
+  font-size: 22px;
+  text-align: center;
+  padding-left: 5px;
+  margin-bottom: 0;
+}
+
+.btn-light {
+  color: black;
+  border-color: black;
+}
+
+.btn {
+  border: solid 2px black;
+  box-shadow: 2px 2px 4px black;
 }
 
 .menu {
@@ -742,19 +743,19 @@ span:nth-child(odd) {
   box-shadow: 4px 4px 10px black;
 }
 
-.card_pedidos {
+.cardPedidos {
   background-image: url(../imagenes/fongopantallakangree.jpg);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  font-family: "Franklin Gothic Medium", "Arial Narrow";
-  color: black;
   padding: 5px;
 }
 
-.pedidos__pasos {
+.cardPedidos__Pasos {
   text-align: start;
+  font-family: "Franklin Gothic Medium", "Arial Narrow";
+  color: black;
   margin: 5px;
   padding-left: 1rem;
 }
@@ -797,6 +798,27 @@ span:nth-child(odd) {
   }
   .cabecera__textos {
     margin: auto;
+  }
+  .cardPedidos__Pasos {
+    font-weight: bold;
+  }
+  .quienesSomos__parrafo {
+    font-weight: bold;
+  }
+  .horarios__dias {
+    font-weight: bold;
+  }
+  .contactoKangre__mensajeParrafo {
+    font-weight: bold;
+  }
+  .contacto__numero {
+    font-weight: bold;
+  }
+  .menu__ingredientes {
+    font-weight: bold;
+  }
+  .btn__pedidos {
+    font-weight: bold;
   }
 }
 
@@ -891,9 +913,6 @@ span:nth-child(odd) {
   .accordion-button:not(.collapsed)::after {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
   }
-  .menu__ingredientes {
-    font-weight: bold;
-  }
   .comentarioKangre__tituloNombre {
     font-size: 30px;
   }
@@ -903,12 +922,6 @@ span:nth-child(odd) {
   .comentarioKangre__nombre {
     width: 60%;
     height: 30px;
-  }
-  .contactoKangre__mensajeParrafo {
-    font-weight: bold;
-  }
-  .contacto__numero {
-    font-weight: bold;
   }
   .contacto__titulo {
     font-size: 35px;
@@ -921,22 +934,12 @@ span:nth-child(odd) {
   .pedidos_btn {
     padding: 10px;
   }
-  .btn__pedidos {
-    font-weight: bold;
-  }
   .pedidos__pasos {
-    font-weight: bold;
     padding-left: 1rem;
   }
   .pedidos__pasos {
     font-size: 15px;
     padding-right: 0;
-  }
-  .quienesSomos__parrafo {
-    font-weight: bold;
-  }
-  .horarios__dias {
-    font-weight: bold;
   }
   .iconoWsp {
     margin-bottom: 5px;

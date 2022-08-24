@@ -68,4 +68,5 @@ p:nth-child(odd){
 span:nth-child(odd){
     color: $colorPrincipal;
     -webkit-text-stroke: 0.5px black;
+    font-weight: bold;
 }

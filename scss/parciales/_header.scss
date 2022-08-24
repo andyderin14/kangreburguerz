@@ -5,6 +5,12 @@
   margin-bottom: 15px;
 }
 
+.logoKangre {
+  display: grid;
+  justify-content: center;
+  margin: 5px;
+}
+
 .tituloPagina {
   font-family: $font-familyPrincipal;
   font-size: 60px;
@@ -80,12 +86,6 @@
     filter: blur(0px);
     opacity: 1;
   }
-}
-
-.logoKangre {
-  display: grid;
-  justify-content: center;
-  margin: 5px;
 }
 
 .eslogan {

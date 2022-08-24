@@ -56,19 +56,19 @@
 }
 
 
-.card_pedidos {
+.cardPedidos {
     background-image: url(../imagenes/fongopantallakangree.jpg);
     background-attachment: fixed;
     background-repeat: $background-repeatPrincipal;
     background-position: center;
     background-size: cover;
+    padding: 5px;
+
+&__Pasos {
+    text-align: start;
     font-family: $font-familyPrincipal;
     color: $colorSecundario;
-    padding: 5px;
-}
-
-.pedidos__pasos {
-    text-align: start;
     margin: 5px;
     padding-left: 1rem;
+}
 }

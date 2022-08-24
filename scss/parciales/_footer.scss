@@ -9,14 +9,14 @@
         font-size: 45px;
         -webkit-text-stroke: $-webkit-text-strokePrincipal;
     }
-    }
 
-.redes__sociales {
+    &__sociales {
         display: flex;
         justify-content: center;
         column-gap: 10px;
         margin-bottom: 20px;
-}
+    }
+    }
 
 .iconoWsp {
     border-radius: 20px;
