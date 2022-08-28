@@ -1,7 +1,7 @@
 .horarios {
     background-image: url(../imagenes/fongopantallakangree.jpg);
     background-repeat: $background-repeatPrincipal;
-    background-size: cover;
+    background-size: $background-sizePrincipal;
     background: fixed;
     border-radius: $border-radiusPrincipal;
     padding: 5px;    

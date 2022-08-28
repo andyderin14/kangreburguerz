@@ -38,7 +38,7 @@
     background-attachment: fixed;
     background-repeat: $background-repeatPrincipal;
     background-position: center;
-    background-size: cover;
+    background-size: $background-sizePrincipal;
     color: $colorSecundario;
     font-family: $font-familyPrincipal;
     box-shadow: $box-shadowPrincipal;
@@ -61,7 +61,7 @@
     background-attachment: fixed;
     background-repeat: $background-repeatPrincipal;
     background-position: center;
-    background-size: cover;
+    background-size: $background-sizePrincipal;
     padding: 5px;
 
 &__Pasos {

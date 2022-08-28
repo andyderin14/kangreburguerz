@@ -98,7 +98,7 @@
 .navegaciones {
   background-image: url(../imagenes/fongopantallakangree.jpg);
   background-repeat: $background-repeatPrincipal;
-  background-size: cover;
+  background-size: $background-sizePrincipal;
   background: fixed;
   font-size: 10px;
   border-radius: $border-radiusPrincipal;

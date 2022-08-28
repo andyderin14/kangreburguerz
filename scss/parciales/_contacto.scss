@@ -88,7 +88,7 @@
     background-attachment: fixed;
     background-position: center;
     background-repeat: $background-repeatPrincipal;
-    background-size: cover;
+    background-size: $background-sizePrincipal;
     object-fit: fill;
     border-radius: $border-radiusPrincipal;
     border: $borderPrincipal;
@@ -100,7 +100,7 @@
     background-attachment: fixed;
     background-position: center;
     background-repeat: $background-repeatPrincipal;
-    background-size: cover;
+    background-size: $background-sizePrincipal;
     object-fit: fill;
     border-bottom: $borderPrincipal;
 }
